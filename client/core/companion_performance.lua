@@ -1,6 +1,6 @@
 -- ================================
 -- COMPANION PERFORMANCE MONITOR
--- Sistema de métricas automáticas siguiendo principios G-larq
+-- Advanced metrics system for companion AI optimization
 -- ================================
 
 local RSGCore = exports['rsg-core']:GetCoreObject()

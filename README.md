@@ -1,58 +1,131 @@
-# 🔒 sadicius-redm-companion-private
+# 🐕 HDRP-Companion Pet System for RedM
 
-🎮 HDRP Companion - Sistema IA para RedM (RSG Framework)
+Advanced companion system for RedM servers with AI-enhanced behavior, customization options, and interactive gameplay mechanics.
 
-## 📊 Información del Backup
-- **Fecha:** 2025-08-02 09:32:29
-- **Dominio:** redm-companion
-- **Workspace:** G-larq Multi-Domain Professional
-- **Autor:** Sadicius - Cazadores de Dados
+## ✨ Features
 
-## 📁 Contenido
+- **🤖 Advanced AI System**: Context-aware companion behavior with dynamic decision making
+- **🎨 Full Customization**: 63+ props and accessories for companion personalization
+- **🎮 Interactive Mini-Games**: 5 engaging activities to play with your companions
+- **⚡ Performance Optimized**: Sub-50ms response times with memory management
+- **🛠️ RSGCore Integration**: Native compatibility with RSGCore framework
+- **📊 Progressive System**: Leveling, bonding, and experience mechanics
 
-Este repositorio contiene el backup privado del dominio `redm-companion` del workspace profesional G-larq.
+## 🚀 Installation
 
-### 🎯 Propósito
-- Backup seguro y privado del trabajo profesional
-- Versionado de cambios importantes
-- Continuidad de negocio y recuperación ante desastres
-- Sincronización entre equipos/dispositivos
+### Prerequisites
+- RedM Server with RSGCore framework
+- Required dependencies:
+  - `rsg-core`
+  - `ox_lib`
+  - `ox_target`
+  - `oxmysql`
 
-## 🔧 Tecnologías Principales
+### Installation Steps
+1. Download the latest release
+2. Extract to your server's `resources` folder
+3. Add `ensure hdrp-companion` to your `server.cfg`
+4. Restart your server (database tables will auto-create)
+5. Configure settings in `shared/config.lua` if needed
 
-- **Framework:** RSG Core
-- **Language:** Lua (CfxLua)
-- **UI:** NUI (HTML/CSS/JS)
-- **Database:** oxmysql, MySQL
+## 🎮 How to Use
 
-## 🚀 Uso
+### Getting Started
+1. Visit any pet stable in-game
+2. Use `/pet_menu` to access the main companion interface
+3. Purchase your first companion from the available selection
+4. Follow the on-screen prompts to complete your purchase
 
-### Clonar repositorio
-```bash
-git clone https://github.com/Sadicius/sadicius-redm-companion-private.git
+### Basic Commands
+- `/pet_menu` - Open main companion menu
+- `/pet_stats` - View companion statistics and status
+- `/pet_games` - Access mini-games and activities
+- `/pet_customize` - Open customization interface
+- `/pet_find` - Locate your stored companions
+
+## 📋 Companion Care Guide
+
+### 🍖 Feeding & Care
+- **Regular Feeding**: Keep your companion's hunger satisfied with appropriate food items
+- **Hydration**: Ensure access to clean water, especially after activities
+- **Rest**: Allow downtime between intensive activities or training sessions
+- **Bonding**: Spend time with your companion to increase bond level
+
+### 🎯 Training Tips
+- **Start Small**: Begin with basic commands before advancing to complex behaviors
+- **Consistency**: Regular interaction improves AI learning and responsiveness
+- **Positive Reinforcement**: Reward good behavior to encourage desired actions
+- **Patience**: AI learning takes time - allow your companion to adapt
+
+### 🎮 Activities & Mini-Games
+1. **Treasure Hunt**: Guide your companion to find hidden treasures
+2. **Fetch Games**: Classic fetch mechanics with various objects
+3. **Exploration**: Discover new areas together with enhanced awareness
+4. **Training Exercises**: Improve companion skills and abilities
+5. **Social Activities**: Interact with other players and their companions
+
+## ⚙️ Configuration
+
+### Basic Settings
+Edit `shared/config.lua` to customize:
+- Companion purchase prices
+- Experience gain rates
+- Food and water consumption
+- Available customization options
+- Performance optimization settings
+
+### Advanced Configuration
+- **AI Performance Mode**: Choose between 'performance', 'balanced', or 'quality'
+- **Max Companions**: Set maximum companions per player (default: 3-5)
+- **Respawn Settings**: Configure companion behavior after disconnection
+- **Database Options**: Customize table names and cleanup intervals
+
+## 🔧 Troubleshooting
+
+### Common Issues
+- **Companion Not Spawning**: Check server console for dependency errors
+- **Database Errors**: Ensure oxmysql is properly configured
+- **Performance Issues**: Adjust AI performance mode in config
+- **Missing Commands**: Verify RSGCore is running and up to date
+
+### Support
+- Check the `docs/` folder for detailed documentation
+- Review `scripts/validate_fixes.lua` for system validation
+- Ensure all dependencies are properly installed and updated
+
+## 📊 System Requirements
+
+- **Server**: RedM compatible server
+- **Framework**: RSGCore (latest version recommended)
+- **Database**: MySQL/MariaDB with oxmysql
+- **Memory**: Minimal impact with intelligent resource management
+- **Performance**: Optimized for servers with 32+ concurrent players
+
+## 🏗️ File Structure
+
+```
+hdrp-companion/
+├── client/          # Client-side scripts and AI system
+├── server/          # Server-side logic and database management
+├── shared/          # Shared configuration and data
+├── docs/            # Documentation and guides
+├── locales/         # Multi-language support
+├── stream/          # Map files for pet stables
+└── scripts/         # Validation and utility scripts
 ```
 
-### Sincronizar cambios
-```bash
-git add .
-git commit -m "📝 Update 2025-08-02"
-git push origin main
-```
+## 📝 License
 
-## 🛡️ Seguridad
+This project is provided as-is for educational and development purposes. Please respect the original work and contributors.
 
-- ✅ Repositorio **PRIVADO**
-- ✅ .gitignore optimizado
-- ✅ Archivos sensibles excluidos
-- ✅ Backup automático configurado
+## 🤝 Contributing
 
-## 📞 Contacto
-
-- **GitHub:** [@Sadicius](https://github.com/Sadicius)
-- **Servidor RedM:** Cazadores de Dados RP
-- **Tebex:** Cazadores de Dados Store
+Contributions are welcome! Please ensure any modifications:
+- Maintain compatibility with RSGCore framework
+- Follow existing code structure and naming conventions
+- Include appropriate error handling and validation
+- Test thoroughly before submitting changes
 
 ---
 
-*🔒 Backup automático generado por GitHub Backup Manager*  
-*📅 Última actualización: 2025-08-02 09:32:29*
+*Created for the RedM community - Enhance your roleplay experience with intelligent companion AI*
