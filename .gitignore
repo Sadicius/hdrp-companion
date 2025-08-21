@@ -1,0 +1,73 @@
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.env
+.venv
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+dist/
+build/
+
+# Archivos sensibles
+*.key
+*.pem
+*.p12
+config/secrets.*
+.env.local
+.env.production
+passwords.txt
+secrets.json
+
+# Temporales de desarrollo
+.cache/
+.tmp/
+.temp/
+*.bak
+*.backup
+*~
+
+# IDEs
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Archivos grandes
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.iso
+*.dmg
+*.exe
+*.msi
+
+# Logs específicos
+*.log
+logs/
+error.log
+access.log
+
+# RedM específico
+cache/
+logs/
+txData/
+
+# FiveM/RedM
+citizen/
