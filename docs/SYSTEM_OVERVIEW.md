@@ -1,6 +1,6 @@
 # 🎮 HDRP-Companion System Overview
 
-Technical documentation of the actual system implementation and user interaction methods.
+Complete guide to how the companion system works and how to interact with your companions.
 
 ## 🏗️ System Architecture
 
@@ -23,7 +23,7 @@ Technical documentation of the actual system implementation and user interaction
 ## 🎯 User Interaction Methods
 
 ### **1. Prompt System (Primary Interface)**
-The system uses **RedM Prompts** - not chat commands. Prompts appear as button indicators near your companion.
+The system uses **RedM Prompts** - interactive buttons that appear near your companion.
 
 #### **Main Prompts:**
 - **Call Companion**: Spawn your companion near you
@@ -177,6 +177,3 @@ Companions automatically remember:
 - **Communication**: Silent coordination between companions
 - **Conflict Resolution**: Automatic mediation of companion disputes
 
----
-
-**This system represents a sophisticated AI companion framework that operates primarily through automation and contextual prompts, not manual chat commands. The emphasis is on natural, intelligent behavior that enhances gameplay without requiring complex user management.**

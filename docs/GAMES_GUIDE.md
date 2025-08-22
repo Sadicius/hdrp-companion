@@ -1,12 +1,10 @@
 # 🎮 HDRP-Companion Games & Activities Guide
 
-Complete guide for interactive activities and entertainment with your companions using the **context menu system** and **automatic AI behaviors** in RedM.
+Complete guide for interactive activities and entertainment with your companions in RedM.
 
 ## 🎯 Games Overview
 
-The companion system includes interactive activities designed to build bonds, develop skills, and provide entertainment. These activities are accessed through **context menus** and **automatic companion behaviors** rather than manual commands.
-
-**Key Point**: Activities use **context menus, prompts, and AI automation** - not chat commands.
+The companion system includes interactive activities designed to build bonds, develop skills, and provide entertainment. These activities are accessed through context menus and automatic companion behaviors.
 
 ## 🎮 How Activities Work
 
@@ -296,6 +294,3 @@ The companion system includes interactive activities designed to build bonds, de
 - **Fair Play**: Maintain sporting behavior in competitive activities
 - **Respectful Interaction**: Positive engagement with community members
 
----
-
-*Companion activities transform the relationship from simple ownership to true partnership. Through shared play, learning, and discovery, these activities create memorable experiences that deepen bonds while developing both companion abilities and player enjoyment. The key is finding the perfect balance of fun, challenge, and growth that suits both you and your unique companion.*

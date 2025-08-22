@@ -1,12 +1,10 @@
 # 👥 HDRP-Companion Multi-Companion Management Guide
 
-Complete guide for the **automatic multi-companion coordination system** in RedM.
+Complete guide for multi-companion coordination in RedM.
 
 ## 🎯 Multi-Companion Overview
 
-The HDRP-Companion system features **fully automatic multi-companion coordination**. When multiple companions are active in an area, the system intelligently manages pack behavior, formations, and leadership without requiring manual commands.
-
-**Key Point**: This is **NOT a manual command system** - everything happens automatically based on context and proximity.
+When multiple companions are active in an area, the system automatically manages pack behavior, formations, and leadership. Everything happens automatically based on context and proximity.
 
 ## 🤖 How Automatic Coordination Works
 
@@ -276,26 +274,10 @@ The system chooses formations based on:
 - **Activity Choices**: Determines formation triggers
 - **Companion Care**: Affects pack performance and loyalty
 
-## 🚨 Important Notes
+## 🎮 Key Points
 
-### **✅ This System IS Automatic**
-- **No commands needed** - everything happens contextually
-- **No manual formation selection** - system chooses optimally
-- **No role assignment required** - AI determines best roles
-- **No pack management menus** - coordination is seamless
+- **Automatic coordination** - formations and roles assigned intelligently
+- **Context-aware behavior** - adapts to your activities and environment
+- **Focus on bonding** - individual companion relationships improve pack performance
+- **Seamless experience** - watch your pack work together naturally
 
-### **❌ There Are NO Manual Commands**
-- **No `/pet_pack` commands** - these don't exist
-- **No formation selection menus** - system chooses automatically
-- **No manual role assignment** - AI handles this intelligently
-- **No pack control panels** - everything is contextual
-
-### **🎮 Focus on Gameplay**
-- **Enjoy the intelligence** - watch your pack work together
-- **Trust the system** - formations will optimize automatically
-- **Focus on adventure** - let the AI handle coordination
-- **Build relationships** - individual companion bonds improve pack performance
-
----
-
-*The multi-companion system represents the pinnacle of AI-driven gameplay enhancement. By removing manual management complexity, players can focus on adventure and relationship-building while enjoying sophisticated pack coordination that responds intelligently to every situation.*

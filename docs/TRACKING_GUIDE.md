@@ -1,12 +1,10 @@
 # 🔍 HDRP-Companion Tracking Guide
 
-Complete guide for tracking and following mechanics using the **AI-driven tracking system** with prompt-based interactions in RedM.
+Complete guide for tracking and following mechanics with your companions in RedM.
 
 ## 🐾 Tracking Overview
 
-Tracking is an **automatic AI capability** that activates through **context-aware prompts** and **intelligent companion behavior**. Your companion uses advanced scent detection, visual observation, and environmental analysis to follow trails and locate targets without requiring manual commands.
-
-**Key Point**: This system operates through **AI automation and prompts** - not chat commands.
+Tracking is an automatic AI capability that activates through context-aware prompts and intelligent companion behavior. Your companion uses advanced scent detection, visual observation, and environmental analysis to follow trails and locate targets.
 
 ## 🎯 How Tracking Works
 
@@ -324,6 +322,3 @@ The tracking system activates when:
 - **Roleplay integration** - tracking fits naturally into roleplay scenarios
 - **Administrative oversight** - respects staff decisions about tracking activities
 
----
-
-*Master tracking transforms your companion into an extension of your senses, capable of reading the landscape's hidden stories and following trails invisible to human perception. Through AI-driven intelligence and natural instincts, tracking becomes an immersive experience that deepens the bond between player and companion while opening new dimensions of exploration and discovery.*

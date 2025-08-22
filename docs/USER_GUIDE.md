@@ -242,6 +242,3 @@ Start with basic commands and gradually advance:
 - Don't use companions to exploit or grief
 - Report bugs or issues to server administrators
 
----
-
-*Remember: A well-cared-for companion is a loyal friend who will enhance your RedM experience for years to come!*

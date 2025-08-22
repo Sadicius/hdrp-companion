@@ -1,12 +1,10 @@
 # 🦌 HDRP-Companion Hunting Guide
 
-Complete guide for hunting activities with your companions using the **prompt-based interaction system** in RedM.
+Complete guide for hunting activities with your companions in RedM.
 
 ## 🎯 Hunting Overview
 
-Your companion becomes an intelligent hunting partner through **automatic AI behavior** and **context-aware prompts**. The system detects hunting situations and provides appropriate interaction options without requiring manual commands.
-
-**Key Point**: This system uses **prompts and automatic AI** - not chat commands.
+Your companion becomes an intelligent hunting partner through automatic AI behavior and context-aware prompts. The system detects hunting situations and provides appropriate interaction options.
 
 ## 🐕 Companion Hunting Abilities
 
@@ -281,6 +279,3 @@ The hunting system activates **automatically** when you:
 - **Protected areas** - AI prevents hunting in restricted zones
 - **Community standards** - follows server-specific hunting guidelines
 
----
-
-*Hunting with companions transforms from a solo activity into an intelligent partnership. The AI-driven system creates authentic hunting experiences that enhance both realism and enjoyment, while maintaining focus on safety, ethics, and the timeless bond between hunter and companion.*
