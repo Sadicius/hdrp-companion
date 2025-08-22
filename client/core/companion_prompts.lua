@@ -81,12 +81,31 @@ function PromptManager:CreatePrompt(key, controlHash, text, holdMode)
 end
 
 function PromptManager:CreatePromptGroup(groupKey, prompts)
+    if not groupKey or not prompts or type(prompts) ~= 'table' then
+        print('^1[ERROR] Invalid parameters for CreatePromptGroup^0')
+        return nil
+    end
+
     local group = GetRandomIntInRange(0, 0xffffff)
 
     for _, promptData in ipairs(prompts) do
-        local prompt = self:CreatePrompt(promptData.key, promptData.control, promptData.text, promptData.holdMode)
-        PromptSetGroup(prompt, group)
-        Citizen.InvokeNative(0xC5F428EE08FA7F2C, prompt, true)
+        if not promptData.key or not promptData.control or not promptData.text then
+            print(string.format('^1[ERROR] Invalid prompt data in group %s^0', groupKey))
+            goto continue
+        end
+
+        local success, prompt = pcall(function()
+            return self:CreatePrompt(promptData.key, promptData.control, promptData.text, promptData.holdMode)
+        end)
+
+        if success and prompt then
+            PromptSetGroup(prompt, group)
+            Citizen.InvokeNative(0xC5F428EE08FA7F2C, prompt, true)
+        else
+            print(string.format('^1[ERROR] Failed to create prompt %s in group %s^0', promptData.key, groupKey))
+        end
+
+        ::continue::
     end
 
     self.promptGroups[groupKey] = {
@@ -158,6 +177,26 @@ end
 function PromptManager:InitializeCompanionPrompts()
     if Config.Debug then
         print('[PROMPTS] Initializing companion prompts')
+    end
+
+    -- Validate Config.Prompt exists
+    if not Config.Prompt then
+        print('^1[ERROR] Config.Prompt not found! Companion prompts will not work.^0')
+        return false
+    end
+
+    -- Validate required prompt controls exist
+    local requiredPrompts = {
+        'CompanionCall', 'CompanionFlee', 'CompanionActions', 'CompanionSaddleBag',
+        'CompanionBrush', 'CompanionAttack', 'CompanionTrack', 'CompanionHunt',
+        'CompanionDrink', 'CompanionEat'
+    }
+
+    for _, promptKey in ipairs(requiredPrompts) do
+        if not Config.Prompt[promptKey] then
+            print(string.format('^1[ERROR] Missing Config.Prompt.%s definition!^0', promptKey))
+            return false
+        end
     end
 
     -- Main companion prompts

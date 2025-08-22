@@ -44,6 +44,12 @@ local function IsPedLeadingHorse(ped)
 end
 
 local function SetupActionPrompt()
+    -- Validate Config.Prompt exists
+    if not Config.Prompt or not Config.Prompt.CompanionDrink or not Config.Prompt.CompanionEat then
+        print('^1[ERROR] Config.Prompt.CompanionDrink/CompanionEat not defined! Action prompts will not work.^0')
+        return false
+    end
+
     local str1 = locale('cl_action_drink')
     ActionCompanionDrink = PromptRegisterBegin()
     PromptSetControlAction(ActionCompanionDrink, Config.Prompt.CompanionDrink)
