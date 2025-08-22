@@ -1,23 +1,23 @@
 -- ================================
 -- COMPANION STATE MANAGER
--- Gestión centralizada del estado siguiendo principios RSGCore
+-- Centralized state management following RSGCore principles
 -- ================================
 
 local RSGCore = exports['rsg-core']:GetCoreObject()
 lib.locale()
 
 -- ================================
--- ESTADO CENTRALIZADO
+-- CENTRALIZED STATE
 -- ================================
 
 local CompanionState = {
-    -- Estado del compañero
+    -- Companion state
     spawned = false,
     called = false,
     ped = 0,
     data = {},
 
-    -- Estadísticas
+    -- Statistics
     stats = {
         xp = 0,
         bonding = 0,

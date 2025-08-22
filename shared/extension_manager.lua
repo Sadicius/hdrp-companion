@@ -1,6 +1,6 @@
 -- ================================
 -- EXTENSION MANAGER
--- Sistema de gestión de extensiones independientes
+-- Independent extension management system
 -- ================================
 
 local RSGCore = exports['rsg-core']:GetCoreObject()

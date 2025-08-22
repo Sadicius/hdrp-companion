@@ -11,7 +11,7 @@ lib.locale()
 -- ================================
 
 local PerformanceMonitor = {
-    -- Métricas en tiempo real
+    -- Real-time metrics
     metrics = {
         fps = {
             current = 0,
@@ -40,19 +40,19 @@ local PerformanceMonitor = {
         }
     },
     
-    -- Configuración
+    -- Configuration
     config = {
         enabled = Config.Debug or false,
         alertThreshold = {
-            fpsImpact = 0.5, -- % FPS impact antes de alerta
-            memoryUsage = 5.0, -- MB antes de alerta
-            errorRate = 0.01 -- % error rate antes de alerta
+            fpsImpact = 0.5, -- % FPS impact before alert
+            memoryUsage = 5.0, -- MB before alert
+            errorRate = 0.01 -- % error rate before alert
         },
-        sampleInterval = 1000, -- ms entre samples
-        reportInterval = 60000 -- ms entre reportes
+        sampleInterval = 1000, -- ms between samples
+        reportInterval = 60000 -- ms between reports
     },
     
-    -- Estado interno
+    -- Internal state
     running = false,
     startTime = 0,
     lastReport = 0
