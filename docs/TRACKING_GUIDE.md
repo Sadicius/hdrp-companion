@@ -1,320 +1,329 @@
 # 🔍 HDRP-Companion Tracking Guide
 
-Complete guide for tracking and following mechanics with your companions in RedM.
+Complete guide for tracking and following mechanics using the **AI-driven tracking system** with prompt-based interactions in RedM.
 
 ## 🐾 Tracking Overview
 
-Tracking is one of the most advanced skills your companion can learn. It combines scent detection, visual observation, and intelligent decision-making to follow trails, locate targets, and gather information about the environment.
+Tracking is an **automatic AI capability** that activates through **context-aware prompts** and **intelligent companion behavior**. Your companion uses advanced scent detection, visual observation, and environmental analysis to follow trails and locate targets without requiring manual commands.
 
-## 🎯 Types of Tracking
+**Key Point**: This system operates through **AI automation and prompts** - not chat commands.
 
-### **🔍 Scent Tracking**
-**Primary Ability**: Following scent trails left by animals, players, or objects
-**Best Companions**: Dogs (especially hunting breeds), Wolves
-**Applications**:
-- Hunting game animals
-- Finding lost items or people
-- Investigating recent activity in an area
-- Security and patrol work
+## 🎯 How Tracking Works
 
-### **👁️ Visual Tracking**
-**Primary Ability**: Following visual cues like footprints, disturbed vegetation, blood trails
-**Best Companions**: All types, with training
-**Applications**:
-- Tracking wounded animals
-- Following escape routes
-- Crime scene investigation
-- Path finding in difficult terrain
+### **🤖 Automatic Tracking Activation**
+The tracking system activates when:
+1. **Near animal tracks** or scent trails with companion present
+2. **Aiming at targets** you want companion to follow
+3. **In areas with recent activity** that companion can detect
+4. **Context suggests tracking** (investigation, hunting, search scenarios)
 
-### **🎧 Sound Tracking**
-**Primary Ability**: Following audio cues and directional sounds
-**Best Companions**: Dogs with enhanced hearing, Cats
-**Applications**:
-- Locating hidden targets
-- Night tracking operations
-- Stealth mission support
-- Perimeter security
+### **🎮 Prompt-Based Interaction**
+**Available Tracking Prompts:**
+- **Track Target**: Appears when aiming at animals, players, or objects
+- **Follow Trail**: Appears near fresh scent trails or tracks
+- **Search Area**: Appears in locations with detectable activity
+
+### **🧠 AI Context Analysis**
+**Your companion automatically analyzes:**
+- **Scent strength and age** of trails (fresh, hours old, days old)
+- **Trail type identification** (human, animal, specific species)
+- **Environmental factors** (weather, terrain, obstacles)
+- **Safety assessment** (threat level, escape routes)
 
 ## 🐕 Companion Tracking Abilities by Type
 
 ### **Dogs - Master Trackers**
-**Specialized Abilities**:
-- **Scent Memory**: Remember and distinguish between multiple scent types
-- **Age Detection**: Determine how old a trail is (fresh, hours old, days old)
-- **Weather Adaptation**: Track effectively in rain, snow, and wind
-- **Human vs. Animal**: Distinguish between human and animal tracks
-- **Emotional State**: Detect stress, fear, or aggression in scent trails
+**Automatic Specialized Abilities:**
+- **Scent Memory**: Distinguishes and remembers multiple scent types
+- **Age Detection**: Determines trail freshness automatically
+- **Weather Adaptation**: Tracks effectively in various conditions
+- **Species Recognition**: Differentiates human vs animal tracks
+- **Emotional State Detection**: Senses stress, fear, or aggression in trails
 
-**Best Breeds for Tracking**:
-- **Bloodhounds**: Exceptional scent detection range
-- **German Shepherds**: Balanced tracking and protection
-- **Retrievers**: Excellent for water-based tracking
-- **Beagles**: Small game and close-range tracking
+**Best Breeds for Tracking:**
+- **Bloodhounds**: Exceptional scent detection range and accuracy
+- **German Shepherds**: Balanced tracking with protection instincts
+- **Retrievers**: Excellent for water-based and difficult terrain tracking
+- **Beagles**: Specialists in small game and close-range precision
 
 ### **Cats - Stealth Trackers**
-**Specialized Abilities**:
-- **Silent Tracking**: Follow without alerting the target
-- **Vertical Tracking**: Follow trails up trees and cliff faces
-- **Night Tracking**: Enhanced ability in low-light conditions
-- **Small Target Focus**: Excellent for tracking small animals or objects
-- **Ambush Prediction**: Anticipate target movement patterns
+**Automatic Specialized Abilities:**
+- **Silent Following**: Tracks without alerting targets
+- **Vertical Tracking**: Follows trails up trees and cliff faces
+- **Night Tracking**: Enhanced capability in low-light conditions
+- **Small Target Focus**: Exceptional for tracking small animals or objects
+- **Ambush Prediction**: Anticipates target movement patterns
 
 ### **Wolves - Pack Trackers**
-**Specialized Abilities**:
-- **Coordinated Tracking**: Work with multiple companions
-- **Territory Mapping**: Understand and remember large area layouts
-- **Threat Assessment**: Determine danger level of tracked targets
-- **Long-Distance Tracking**: Follow trails across vast distances
-- **Alpha Communication**: Lead other companions in tracking operations
+**Automatic Specialized Abilities:**
+- **Coordinated Tracking**: Works with multiple companions automatically
+- **Territory Mapping**: Understands and remembers large area layouts
+- **Threat Assessment**: Determines danger level of tracked targets
+- **Long-Distance Tracking**: Follows trails across vast distances
+- **Leadership Coordination**: Guides other companions in tracking operations
 
-## 🎮 Tracking Commands and Controls
+## 🎮 Tracking Interaction System
 
-### **Basic Tracking Commands**
-```
-/pet_track start [target]    - Begin tracking specified target type
-/pet_track follow            - Follow the most recent trail found
-/pet_track mark              - Mark current location as tracking waypoint
-/pet_track report            - Get information about current trail
-/pet_track stop              - End tracking mode
-```
+### **🎯 Target-Based Tracking**
+**How to Initiate:**
+1. **Aim at target** (animal, player, or object of interest)
+2. **Track Target prompt appears** when viable tracking available
+3. **Use prompt** - companion begins following target automatically
+4. **Follow companion's lead** as it tracks the target
 
-### **Advanced Tracking Commands**
-```
-/pet_track mode [stealth/fast/thorough] - Set tracking approach
-/pet_track age [fresh/recent/old/any]   - Filter trails by age
-/pet_track type [human/animal/object]   - Focus on specific trail types
-/pet_track distance [close/far/extreme] - Set tracking range
-/pet_track backtrack                    - Follow trail in reverse
-```
+**AI Tracking Behavior:**
+- **Scent acquisition** - companion identifies and locks onto target scent
+- **Trail following** - maintains tracking through terrain changes
+- **Distance management** - keeps appropriate following distance
+- **Stealth adaptation** - adjusts approach based on target awareness
 
-### **Multi-Companion Tracking**
-```
-/pet_track formation [spread/line/circle] - Set tracking formation
-/pet_track assign [scout/tracker/guard]   - Assign roles to companions
-/pet_track coordinate                     - Synchronize multiple trackers
-/pet_track converge [location]           - Direct all trackers to point
-```
+### **🔍 Trail-Based Tracking**
+**How It Activates:**
+1. **Approach areas with recent activity** (footprints, disturbances)
+2. **Follow Trail prompt appears** near detectable trails
+3. **Companion enters tracking mode** automatically
+4. **Trail quality assessment** shown through companion behavior
+
+**Trail Quality Indicators:**
+- **Fresh trails** (under 30 minutes): Confident, fast movement
+- **Recent trails** (1-2 hours): Methodical, steady progress  
+- **Old trails** (hours to days): Careful, slow confirmation
+- **Cold trails** (very old): Systematic search pattern
+
+### **🌍 Area Search Tracking**
+**Automatic Activation:**
+1. **Enter areas with unknown activity** patterns
+2. **Companion detects potential tracking opportunities**
+3. **Search Area prompt appears** for investigation
+4. **Systematic search pattern** executed automatically
 
 ## 🔍 Tracking Techniques and Strategies
 
-### **1. Fresh Trail Tracking**
-**Best For**: Recent activity (under 30 minutes)
-**Strategy**:
-1. **Quick Response**: Start tracking immediately
-2. **Fast Pace**: Move quickly while trail is strong
-3. **Direct Following**: Minimal deviation from trail
-4. **Real-Time Updates**: Companion provides constant feedback
+### **1. Fresh Trail Following**
+**AI Behavior:**
+- **Immediate scent lock** - companion quickly identifies and follows
+- **Fast pace tracking** - moves quickly while trail is strong
+- **Real-time feedback** - body language shows trail strength
+- **Direct routing** - minimal deviation from optimal path
 
-**Success Indicators**:
-- Companion moves confidently with head down
-- Frequent scent confirmation stops
-- Direct, purposeful movement
-- Excited body language
+**Player Experience:**
+- **Confident companion movement** with head down, purposeful direction
+- **Frequent scent confirmation** stops at key trail points
+- **Excited body language** indicating strong trail detection
+- **Clear directional guidance** toward target location
 
 ### **2. Cold Trail Investigation**
-**Best For**: Old activity (hours to days old)
-**Strategy**:
-1. **Thorough Search**: Systematic area scanning
-2. **Multiple Confirmations**: Cross-reference different trail signs
-3. **Patience Required**: Allow companion extra time
-4. **Wide Search Pattern**: Cover broader area for trail pickup
+**AI Behavior:**
+- **Systematic area scanning** - thorough search for trail markers
+- **Multiple confirmation points** - cross-references different signs
+- **Patient methodology** - takes time for accurate analysis
+- **Adaptive search patterns** - adjusts technique based on findings
 
-**Success Indicators**:
-- Companion takes time to confirm scents
-- Methodical, careful movement
-- Frequent rechecking of trail markers
-- Gradual confidence building
+**Player Experience:**
+- **Methodical companion behavior** with careful, deliberate movement
+- **Extended search times** as companion works to confirm trails
+- **Gradual confidence building** as trail becomes clearer
+- **Area coverage expansion** until trail is located or confirmed absent
 
 ### **3. Interrupted Trail Recovery**
-**Best For**: When trails are broken or obscured
-**Strategy**:
-1. **Last Known Position**: Return to last confirmed trail point
-2. **Circle Search**: Expand search radius systematically
-3. **Alternative Routes**: Check likely path continuations
-4. **Environmental Factors**: Consider terrain and weather effects
+**AI Behavior:**
+- **Last known position return** - goes back to confirmed trail point
+- **Circular search expansion** - systematically increases search radius
+- **Alternative route checking** - examines likely continuation paths
+- **Environmental factor analysis** - considers terrain and weather effects
 
-**Recovery Techniques**:
-- **Backtracking**: Follow trail in reverse to understand pattern
-- **Parallel Searching**: Check adjacent paths for trail continuation
-- **Elevated Scouting**: Use higher ground for broader view
-- **Time Patience**: Allow companion extended search time
+**Recovery Techniques:**
+- **Backtracking analysis** - follows trail in reverse to understand pattern
+- **Parallel path searching** - checks adjacent routes for continuation
+- **Elevated scouting** - uses terrain advantages for broader perspective
+- **Time investment** - allows extended search periods for difficult recoveries
 
 ### **4. Multi-Target Tracking**
-**Best For**: Complex scenarios with multiple trails
-**Strategy**:
-1. **Trail Separation**: Distinguish between different targets
-2. **Priority Assignment**: Focus on most important trail
-3. **Companion Coordination**: Use multiple companions for different trails
-4. **Information Management**: Track details of each trail separately
+**AI Behavior:**
+- **Trail separation** - distinguishes between different target scents
+- **Priority assessment** - focuses on most viable or important trail
+- **Automatic coordination** - manages multiple companions on different trails
+- **Information synthesis** - combines data from multiple tracking sources
 
 ## 🎯 Tracking Scenarios and Applications
 
 ### **🦌 Wildlife Tracking**
-**Objective**: Locate and follow wild animals
-**Common Targets**: Deer, boar, predators, rare animals
-**Techniques**:
-- **Feeding Pattern Analysis**: Track to watering holes or feeding areas
-- **Seasonal Behavior**: Understand migration and mating patterns
-- **Herd Dynamics**: Track individual animals within groups
-- **Predator Avoidance**: Identify and avoid dangerous animal trails
+**Automatic Detection:**
+- **Animal behavior patterns** - feeding, watering, migration routes
+- **Seasonal adaptations** - tracks change with animal behavior cycles
+- **Herd dynamics** - individual tracking within group movements
+- **Predator avoidance** - identifies and avoids dangerous animal trails
 
-### **👤 Player Tracking**
-**Objective**: Follow other players' movements
-**Applications**: Security, investigation, rescue operations
-**Techniques**:
-- **Recent Activity**: Track players who recently passed through area
-- **Camp Location**: Find hidden camps or bases
-- **Escape Routes**: Follow fleeing suspects or targets
-- **Pattern Recognition**: Understand regular movement patterns
+**AI Features:**
+- **Species identification** through scent and track analysis
+- **Behavioral prediction** based on animal movement patterns
+- **Safety assessment** for potentially dangerous wildlife encounters
+- **Environmental integration** using terrain and weather knowledge
 
-### **💰 Treasure and Item Tracking**
-**Objective**: Locate lost or hidden valuable items
-**Techniques**:
-- **Scent Association**: Track items by handler's scent
-- **Disturbance Detection**: Find areas where items were buried/hidden
-- **Metal Detection**: Some companions can sense metal objects
-- **Recent Activity**: Track who was in area with valuable items
+### **👤 Player and NPC Tracking**
+**Automatic Capabilities:**
+- **Recent activity detection** - identifies where players have been
+- **Movement pattern analysis** - understands regular routes and habits
+- **Intent assessment** - evaluates whether targets are hostile or friendly
+- **Social context awareness** - adapts approach based on target relationships
 
-### **🚨 Emergency Tracking**
-**Objective**: Locate missing persons or emergency situations
-**Techniques**:
-- **Last Known Position**: Start from confirmed last location
-- **Stress Scent Detection**: Identify fear or injury scents
-- **Medical Emergency**: Track based on blood or medical scents
-- **Rescue Coordination**: Work with multiple search teams
+**Applications:**
+- **Security investigations** - following suspicious activity
+- **Rescue operations** - locating missing persons
+- **Social interactions** - finding friends or allies
+- **Threat assessment** - tracking potentially hostile individuals
+
+### **💰 Object and Treasure Tracking**
+**AI Detection Methods:**
+- **Handler scent association** - tracks items by previous holder's scent
+- **Disturbance pattern recognition** - identifies where items were moved/buried
+- **Environmental analysis** - detects areas of recent digging or hiding
+- **Material detection** - some companions sense metal or specific materials
+
+**Discovery Applications:**
+- **Lost item recovery** - finding dropped or misplaced objects
+- **Treasure hunting** - locating buried or hidden valuables
+- **Evidence gathering** - tracking items related to investigations
+- **Resource location** - finding caches or supply stashes
+
+### **🚨 Emergency and Rescue Tracking**
+**Priority Protocols:**
+- **Medical emergency detection** - prioritizes injury or distress scents
+- **Rapid response mode** - accelerated tracking for urgent situations
+- **Safety-first approach** - maintains escape routes during dangerous rescues
+- **Coordination capability** - works with multiple search teams
+
+**Emergency Features:**
+- **Stress scent identification** - detects fear, injury, or panic
+- **Time-critical optimization** - fastest possible tracking methods
+- **Environmental hazard awareness** - avoids dangers during rescue operations
+- **Communication with other rescuers** - coordinates with human search efforts
 
 ## 🌟 Advanced Tracking Features
 
-### **Weather-Adaptive Tracking**
-**Rain Conditions**:
-- Trails are washed away quickly
-- Companions must work faster
-- Focus on sheltered areas where scents linger
-- Use visual cues more than scent
+### **🌦️ Weather-Adaptive Tracking**
+**Automatic Adaptations:**
 
-**Snow Conditions**:
-- Visual tracks are enhanced
-- Scents are preserved longer in cold
-- Companions can track longer distances
-- Wind patterns affect scent distribution
+**Rain Conditions:**
+- **Visual emphasis** - relies more on footprints and disturbances
+- **Protected area focus** - searches areas where scents survive longer
+- **Accelerated tracking** - moves faster before trails are completely washed away
+- **Sound integration** - uses audio cues when scent is diminished
 
-**Hot Weather**:
-- Scents dissipate rapidly
-- Best tracking in early morning/evening
-- Companions need frequent water breaks
-- Focus on shaded areas where scents survive
+**Snow Conditions:**
+- **Enhanced visual tracking** - excellent footprint preservation
+- **Cold weather optimization** - scents last longer in freezing temperatures
+- **Terrain navigation** - adapts to snow-covered obstacles
+- **Wind pattern utilization** - uses snow drift patterns for scent distribution
 
-### **Terrain-Specific Tracking**
-**Forest Tracking**:
-- Dense scent retention in undergrowth
-- Multiple vertical levels to check
-- Branches and leaves hold scent well
-- Visual tracking more difficult
+**Hot Weather:**
+- **Early morning emphasis** - tracks when scents are strongest
+- **Shade seeking** - focuses on areas where scents survive heat
+- **Frequent rest periods** - prevents companion overheating
+- **Water source integration** - checks areas where targets might seek water
 
-**Plains Tracking**:
-- Wind disperses scents quickly
-- Visual tracks in grass and dirt
-- Long sight lines for target spotting
-- Weather exposure affects trail quality
+### **🌍 Terrain-Specific Tracking**
+**Automatic Terrain Adaptation:**
 
-**Urban Tracking**:
-- Complex scent mixing from many sources
-- Hard surfaces don't retain tracks well
-- Companions must filter out distractions
-- Focus on specific scent isolation
+**Forest Tracking:**
+- **Understory utilization** - uses dense vegetation for scent retention
+- **Multi-level analysis** - checks ground, branch, and canopy levels
+- **Natural shelter exploitation** - focuses on areas with scent protection
+- **Wildlife integration** - distinguishes target trails from animal activity
 
-### **Combat Tracking Integration**
-**Hostile Target Tracking**:
-- Maintain safe distance from dangerous targets
-- Use stealth mode to avoid detection
-- Companions can detect armed vs. unarmed targets
-- Identify ambush locations and escape routes
+**Plains Tracking:**
+- **Wind compensation** - accounts for rapid scent dispersal
+- **Long-distance visibility** - uses open terrain for visual confirmation
+- **Grass and soil analysis** - reads subtle ground disturbances
+- **Weather shelter seeking** - prioritizes areas with natural wind breaks
 
-**Using the `GetPedCombatTarget` Function**:
-- Companion can identify when tracked target is in combat
-- Helps determine if target is friendly or hostile
-- Allows tactical positioning during tracking
-- Enables protective responses if tracker is threatened
+**Urban Tracking:**
+- **Scent filtering** - isolates target scents from urban contamination
+- **Hard surface adaptation** - focuses on areas that retain scent traces
+- **Human activity integration** - tracks through complex social environments
+- **Building and structure utilization** - uses architecture for scent preservation
 
-## 📚 Tracking Training Progression
+### **⚔️ Combat and Tactical Tracking**
+**Integrated Combat Features:**
+- **GetPedCombatTarget Integration**: Companion identifies when tracked targets are in combat
+- **Threat level assessment**: Evaluates target combat capability and intentions  
+- **Tactical positioning**: Maintains safe tracking distance from armed targets
+- **Escape route planning**: Always maintains exit strategies during dangerous tracking
 
-### **Novice Level (Levels 1-3)**
-**Training Focus**: Basic scent recognition and simple following
-**Exercises**:
-- **Treat Trails**: Follow food scent trails in safe areas
-- **Short Distances**: 50-100 meter tracking exercises
-- **Fresh Trails**: Only track very recent activity
-- **Single Targets**: Focus on one scent at a time
-- **Safe Environments**: Practice in controlled, non-dangerous areas
+**Combat Context Applications:**
+- **Hostile target identification**: Distinguishes armed vs unarmed targets
+- **Combat situation awareness**: Adapts tracking when targets are fighting
+- **Protective positioning**: Shields player from potential threats during tracking
+- **Emergency withdrawal**: Immediate disengagement protocols when threatened
 
-**Success Rate**: 30-50%
-**Trail Age**: Fresh only (under 15 minutes)
-**Distance**: Up to 200 meters
+## 📚 Tracking Training and Progression
 
-### **Intermediate Level (Levels 4-6)**
-**Training Focus**: Complex trail following and environmental adaptation
-**Exercises**:
-- **Mixed Terrain**: Practice in different environments
-- **Older Trails**: Track scents 1-2 hours old
-- **Multiple Targets**: Distinguish between different scents
-- **Weather Training**: Practice in various weather conditions
-- **Obstacle Navigation**: Track through difficult terrain
+### **🎯 Automatic Skill Development**
+**Companion tracking improves through:**
+- **Successful tracking sessions** - each success builds experience and confidence
+- **Variety of targets** - different tracking types broaden expertise
+- **Environmental exposure** - experience in various terrains and weather
+- **Time investment** - extended tracking sessions develop stamina and focus
 
-**Success Rate**: 50-70%
-**Trail Age**: Up to 2 hours old
-**Distance**: Up to 500 meters
+### **🏅 Tracking Progression Levels**
 
-### **Expert Level (Levels 7-10)**
-**Training Focus**: Advanced techniques and tactical applications
-**Exercises**:
-- **Cold Trails**: Track scents many hours or days old
-- **Long Distance**: Follow trails over kilometers
-- **Combat Situations**: Track in dangerous environments
-- **Multi-Companion Coordination**: Lead tracking teams
-- **Specialized Scenarios**: Custom tracking missions
+**Novice Level (Levels 1-3):**
+- **Basic scent recognition** - can follow obvious, fresh trails
+- **Short distance tracking** - effective up to 200 meters
+- **Simple terrain** - works best in open, uncomplicated areas
+- **Fresh trails only** - requires trails under 15 minutes old
+- **Success Rate**: 30-50%
 
-**Success Rate**: 70-90%
-**Trail Age**: Up to 24 hours old
-**Distance**: Over 1 kilometer
+**Intermediate Level (Levels 4-6):**
+- **Complex trail analysis** - handles multiple intersecting trails
+- **Extended distance** - effective up to 500 meters
+- **Varied terrain** - adapts to different environmental challenges
+- **Older trails** - can follow trails up to 2 hours old
+- **Success Rate**: 50-70%
 
-## 🛠️ Tracking Equipment and Tools
+**Expert Level (Levels 7-10):**
+- **Master tracking** - handles extremely challenging tracking scenarios
+- **Long distance pursuit** - effective over kilometers
+- **All terrain mastery** - excels in any environmental condition
+- **Ancient trails** - can follow very old trails up to 24 hours
+- **Success Rate**: 70-90%
 
-### **Companion Tracking Gear**
-- **Tracking Harness**: Reduces fatigue during long pursuits
-- **Scent Amplifiers**: Enhance natural scent detection
-- **Trail Markers**: Allow companion to mark significant points
-- **Communication Device**: Stay in contact during tracking
-- **Protection Gear**: Shield from thorns and difficult terrain
+## 📊 Tracking Performance and Statistics
 
-### **Environmental Tools**
-- **Weather Monitor**: Track wind and weather effects on trails
-- **Terrain Maps**: Understand area layout for tracking strategy
-- **UV Light**: Reveal hidden scents and tracks at night
-- **Trail Documentation**: Record successful tracking routes
-- **Emergency Supplies**: First aid and survival gear for long tracks
+### **Automatic Performance Monitoring**
+**System tracks:**
+- **Trail age detection accuracy** - how well companion estimates trail freshness
+- **Target identification success** - correct species/person identification rates
+- **Distance tracking capability** - maximum effective tracking ranges
+- **Environmental adaptation** - performance across different conditions
+- **Safety incident prevention** - avoiding dangerous tracking situations
+
+### **Companion Development Tracking**
+- **Scent discrimination improvement** - ability to distinguish similar scents
+- **Speed vs accuracy optimization** - balance between fast and precise tracking
+- **Terrain specialization** - development of expertise in specific environments
+- **Target type preferences** - natural affinity for certain tracking types
 
 ## 🚨 Tracking Safety and Ethics
 
-### **Safety Protocols**
-1. **Know Your Environment**: Understand terrain and weather risks
-2. **Companion Limits**: Don't overwork companions on long tracks
-3. **Dangerous Targets**: Never track armed hostiles without backup
-4. **Emergency Planning**: Have extraction plans for remote tracking
-5. **Communication**: Maintain contact with base during operations
+### **Automatic Safety Protocols**
+- **Threat assessment** - continuous evaluation of tracking target danger levels
+- **Distance management** - maintains safe following distances
+- **Environmental hazard detection** - identifies and avoids tracking dangers
+- **Emergency disengagement** - automatic withdrawal from dangerous situations
 
-### **Ethical Considerations**
-- **Privacy Respect**: Don't track players without legitimate reason
-- **Consent**: Ensure tracking activities are server-appropriate
-- **Non-Harassment**: Use tracking for positive gameplay only
-- **Environmental Impact**: Don't disturb wildlife unnecessarily
-- **Fair Play**: Respect other players' privacy and gameplay
+### **Ethical Tracking Standards**
+- **Privacy respect** - avoids unnecessary invasion of player privacy
+- **Consent awareness** - appropriate use within server rules and social norms
+- **Non-harassment focus** - tracking for positive gameplay purposes only
+- **Environmental responsibility** - minimal disturbance to wildlife and terrain
 
-### **Legal Server Compliance**
-- **Server Rules**: Follow specific tracking regulations
-- **PvP Considerations**: Understand tracking rules in combat zones
-- **Roleplay Integration**: Use tracking appropriately for RP scenarios
-- **Admin Guidelines**: Respect staff decisions about tracking activities
+### **Server Compliance**
+- **Rule adherence** - tracking activities comply with server regulations
+- **PvP considerations** - appropriate tracking behavior in combat zones
+- **Roleplay integration** - tracking fits naturally into roleplay scenarios
+- **Administrative oversight** - respects staff decisions about tracking activities
 
 ---
 
-*Master tracking is the art of reading the story that every footstep, scent, and disturbance tells. With patience, training, and a skilled companion, you can uncover secrets hidden in the landscape and follow trails that others cannot even see.*
+*Master tracking transforms your companion into an extension of your senses, capable of reading the landscape's hidden stories and following trails invisible to human perception. Through AI-driven intelligence and natural instincts, tracking becomes an immersive experience that deepens the bond between player and companion while opening new dimensions of exploration and discovery.*

@@ -1,257 +1,286 @@
 # 🦌 HDRP-Companion Hunting Guide
 
-Complete guide for hunting activities with your companions in RedM.
+Complete guide for hunting activities with your companions using the **prompt-based interaction system** in RedM.
 
 ## 🎯 Hunting Overview
 
-Your companion can become an expert hunting partner with proper training and the right techniques. This guide covers everything from basic hunting mechanics to advanced strategies for different game types.
+Your companion becomes an intelligent hunting partner through **automatic AI behavior** and **context-aware prompts**. The system detects hunting situations and provides appropriate interaction options without requiring manual commands.
+
+**Key Point**: This system uses **prompts and automatic AI** - not chat commands.
 
 ## 🐕 Companion Hunting Abilities
 
 ### **Dogs - The Ultimate Hunting Partners**
-- **Scent Detection**: Superior ability to detect animal tracks and scents
-- **Silent Approach**: Trained dogs can move quietly to avoid spooking game
+- **Scent Detection**: Automatically detects animal tracks and scents
+- **Silent Approach**: AI behavior adapts for stealth when hunting
 - **Retrieval Skills**: Natural instinct to fetch downed game without damage
-- **Stamina**: Extended hunting sessions without fatigue
-- **Pack Coordination**: Work effectively with multiple hunting dogs
+- **Stamina**: Extended hunting sessions with performance monitoring
+- **Pack Coordination**: Automatic coordination with multiple hunting companions
 
 ### **Cats - Specialized Small Game Hunters**
-- **Stealth Masters**: Nearly silent movement for ambush hunting
-- **Rodent Specialists**: Excellent for hunting rabbits, squirrels, and birds
-- **Night Vision**: Enhanced hunting capability during dawn and dusk
-- **Climbing Ability**: Can pursue game into trees and elevated areas
+- **Stealth Masters**: Exceptional AI behavior for silent movement
+- **Rodent Specialists**: Enhanced detection and tracking of small prey
+- **Night Vision**: Improved hunting capability during dawn and dusk
+- **Climbing Ability**: Can pursue game into elevated areas
 
 ### **Wolves - Apex Hunting Predators**
-- **Pack Hunting**: Advanced coordination for large game
-- **Intimidation**: Can scare game into specific directions
-- **Raw Power**: Capable of taking down larger prey
+- **Pack Hunting**: Advanced automatic coordination for large game
+- **Intimidation**: Can influence game movement through positioning
+- **Raw Power**: Capable of assisting with larger prey
 - **Territory Control**: Excellent for area denial hunting strategies
 
-## 🏹 Hunting Commands and Controls
+## 🎮 Hunting Interaction System
 
-### **Basic Hunting Commands**
-```
-/pet_hunt start     - Begin hunting mode with active companion
-/pet_hunt track     - Command companion to track nearest scent
-/pet_hunt retrieve  - Send companion to retrieve downed game
-/pet_hunt quiet     - Toggle silent movement mode
-/pet_hunt stay      - Keep companion in position during shot setup
-```
+### **🎯 Prompt-Based Controls**
+The hunting system activates **automatically** when you:
+1. **Draw a weapon** near wildlife
+2. **Aim at animals** with your companion active
+3. **Enter hunting areas** with appropriate companions
 
-### **Advanced Hunting Controls**
-```
-/pet_hunt formation [type]  - Set hunting formation (scout/flank/follow)
-/pet_hunt target [animal]   - Focus hunting on specific animal type
-/pet_hunt radius [distance] - Set hunting search radius
-/pet_hunt mode [aggressive/passive] - Set hunting aggressiveness
-```
+**Available Prompts:**
+- **Hunt Target**: Appears when aiming at animals - commands companion to assist
+- **Track Target**: Appears near animal trails - companion follows scent
+- **Attack Target**: For aggressive/dangerous wildlife encounters
+
+### **🤖 Automatic Hunting Behavior**
+**Your companion automatically:**
+- **Detects nearby game** through AI context analysis
+- **Switches to hunting mode** when weapons are drawn
+- **Positions optimally** for coordinated hunting
+- **Adapts behavior** based on prey type and environment
+- **Coordinates with pack** if multiple companions present
+
+### **🎪 Context-Aware Responses**
+**The system recognizes:**
+- **Small Game**: Rabbits, birds, squirrels → Stealth and retrieval focus
+- **Medium Game**: Deer, boar, coyotes → Coordination and driving tactics
+- **Large Game**: Bears, elk, bison → Safety-first positioning and distraction
+- **Predators**: Wolves, cougars → Defensive hunting with escape routes
 
 ## 🦌 Hunting Strategies by Game Type
 
 ### **Small Game Hunting (Rabbits, Squirrels, Birds)**
 
-**Best Companions**: Cats, Small Dogs
-**Strategy**:
-1. **Silent Approach**: Use stealth mode to avoid detection
-2. **Scent Tracking**: Let companion locate game burrows/nests
-3. **Patience**: Wait for optimal shot opportunities
-4. **Quick Retrieval**: Send companion immediately after the shot
+**How It Works:**
+1. **Approach hunting area** with companion active
+2. **Draw small game weapon** (bow, small rifle)
+3. **Companion automatically enters stealth mode**
+4. **Aim at small game** - hunt prompt appears
+5. **Use prompt** - companion coordinates positioning
+6. **Take shot** when companion has optimally positioned prey
+7. **Companion automatically retrieves** downed game
 
-**Pro Tips**:
-- Hunt during early morning (5-7 AM) for best success
-- Use small game arrows to preserve pelt quality
-- Cats excel in wooded areas with dense cover
-- Multiple small dogs can cover more ground efficiently
+**AI Behavior:**
+- **Silent movement** - companion moves quietly to avoid spooking prey
+- **Scent tracking** - follows animal trails and burrows
+- **Positioning** - drives game toward clear shooting lanes
+- **Quick retrieval** - immediately fetches small game after shots
+
+**Best Times:**
+- **Early morning** (5-7 AM game time) for highest success
+- **Dense cover areas** where cats excel
+- **Multiple small companions** can cover more ground
 
 ### **Medium Game Hunting (Deer, Boar, Coyotes)**
 
-**Best Companions**: Medium to Large Dogs, Trained Wolves
-**Strategy**:
-1. **Scouting Phase**: Send companion to locate herds/trails
-2. **Positioning**: Use companion to guide game into open areas
-3. **Wind Direction**: Position companion downwind for scent masking
-4. **Coordinated Attack**: Time shots with companion positioning
+**How It Works:**
+1. **Scout area** - companion automatically detects herds/trails
+2. **Position strategically** - AI suggests optimal approach angles
+3. **Use terrain** - companion helps guide game to open areas
+4. **Coordinate shot timing** - companion creates opportunities
+5. **Pack hunting** - multiple companions automatically coordinate
 
-**Advanced Techniques**:
-- **Drive Hunting**: Use companion to slowly push game toward hunter
-- **Ambush Setup**: Position companion to block escape routes
-- **Scent Masking**: Well-trained companions can mask human scent
-- **Herd Separation**: Isolate individual animals from groups
+**Advanced AI Techniques:**
+- **Drive hunting**: Companion slowly pushes game toward hunter
+- **Ambush setup**: AI positions companion to block escape routes
+- **Scent masking**: Well-trained companions help mask human scent
+- **Herd separation**: Isolate individual animals from groups
+
+**Environmental Factors:**
+- **Wind direction**: AI automatically positions companions downwind
+- **Cover usage**: Companions use natural concealment
+- **Noise discipline**: Coordinated quiet movement
+- **Distance management**: Maintains optimal positioning ranges
 
 ### **Large Game Hunting (Bears, Elk, Bison)**
 
-**Best Companions**: Large Dogs, Wolves (Experienced Hunters Only)
-**Strategy**:
-1. **Safety First**: Keep companion at safe distance initially
-2. **Distraction Tactics**: Use companion to divert attention
-3. **Flanking Maneuvers**: Position companion for optimal shot angles
-4. **Backup Support**: Companion can assist if hunter is threatened
+**How It Works:**
+1. **Safety assessment** - AI evaluates threat level automatically
+2. **Defensive positioning** - companion maintains safe distance initially
+3. **Distraction tactics** - companion diverts attention when safe
+4. **Flanking support** - positions for optimal shot angles
+5. **Emergency response** - companion assists if hunter threatened
 
-**Critical Safety Protocols**:
-- **Never send companion directly at large predators**
-- **Use "defensive" stance to protect companion from charges**
-- **Have escape routes planned for both hunter and companion**
-- **Carry companion medical supplies for emergencies**
+**Critical Safety Protocols:**
+- **Never direct attack** - AI prevents companion from directly engaging large predators
+- **Defensive stance** - companion protects hunter from charges
+- **Escape route planning** - AI maintains exit strategies
+- **Medical preparedness** - companion carries emergency supplies
 
-## 🎮 Hunting Mini-Games and Activities
+**AI Safety Features:**
+- **Threat assessment** - continuous evaluation of danger levels
+- **Distance management** - maintains safe engagement ranges
+- **Emergency signals** - companion alerts to immediate dangers
+- **Protective positioning** - shields hunter from aggressive wildlife
 
-### **1. Scent Trail Challenge**
-**Objective**: Follow a scent trail to locate hidden game
-**How to Play**:
-1. Activate hunting mode near animal tracks
-2. Watch companion behavior for scent strength indicators
-3. Follow companion's lead through the trail
-4. Locate and approach the target animal
+## 🎪 Hunting Activities and Games
 
-**Companion Behavior Cues**:
-- **Excited panting**: Strong scent detected
-- **Head down, slow movement**: Following active trail
-- **Pointing/Alerting**: Target animal located
-- **Circling**: Lost trail, needs to reacquire scent
+### **🔍 Scent Trail Following**
+**How It Activates:**
+- **Approach animal tracks** with companion active
+- **Track prompt appears** when near fresh trails
+- **Companion behavior changes** to tracking mode
+- **Follow companion's lead** through trail indicators
 
-### **2. Pack Coordination Hunt**
-**Objective**: Coordinate multiple companions for large game
-**Requirements**: 2+ trained hunting companions
-**Strategy**:
-1. Assign roles to each companion (scout, driver, retriever)
-2. Position companions at strategic points
-3. Execute coordinated hunting sequence
-4. Share rewards among all participants
+**Companion Behavior Cues:**
+- **Excited movement**: Strong scent detected, tail activity
+- **Head-down slow movement**: Following active trail
+- **Pointing/alerting**: Target animal located nearby
+- **Circling behavior**: Lost trail, reacquiring scent
 
-### **3. Treasure Hunt (Bone Hunting)**
-**Objective**: Companion finds buried animal bones/treasures
-**Gameplay**:
-1. Visit areas with historical animal activity
-2. Command companion to search for buried items
-3. Follow digging behavior to locate treasures
-4. Discover rare bones, pelts, or hunting equipment
+**Trail Quality Indicators:**
+- **Fresh trails**: Companion moves confidently and quickly
+- **Old trails**: Methodical, careful scent confirmation
+- **Multiple trails**: Companion distinguishes between different animals
+- **Weather effects**: AI adapts to rain, wind, temperature impacts
 
-**Rare Finds**:
-- **Legendary Animal Bones**: Valuable trader items
-- **Native Arrowheads**: Historical collectibles
-- **Hidden Caches**: Supplies left by other hunters
-- **Rare Pelts**: From animals that died naturally
+### **🎯 Pack Coordination Hunting**
+**Automatic Activation:**
+- **2+ companions present** in hunting context
+- **System detects hunting activity** (weapons drawn, animals nearby)
+- **AI assigns roles** automatically: scout, driver, retriever, safety
+- **Coordinated hunting sequence** executes without manual commands
 
-## 🎯 Hunting Training Progression
+**Role Distribution:**
+- **Alpha Leader**: Tactical coordination and decision-making
+- **Scout**: Advanced reconnaissance and trail finding
+- **Driver**: Pushes game toward hunter position
+- **Blocker**: Prevents escape routes and redirects
+- **Retriever**: Collects downed game and maintains security
 
-### **Beginner Level (Levels 1-3)**
-**Focus**: Basic commands and safety
-**Training Activities**:
-- Practice "stay" and "come" commands
-- Short retrieval exercises with decoy items
-- Basic scent recognition training
-- Safe distance maintenance
+**Player Experience:**
+- **Enhanced success rates** through coordination
+- **Larger game targeting** possible with pack support
+- **Automatic role switching** based on situation changes
+- **Shared experience** improves all pack members
 
-**Suitable Game**: Small birds, rabbits
-**Success Rate**: 40-60%
+### **💎 Treasure Hunting (Companion-Led)**
+**Natural Discovery Process:**
+- **Companion detects buried items** during hunting expeditions
+- **Digging behavior** indicates potential treasure locations
+- **Follow companion's interest** to discovery sites
+- **Assist with excavation** when companion finds items
 
-### **Intermediate Level (Levels 4-6)**
-**Focus**: Advanced tracking and coordination
-**Training Activities**:
-- Extended scent trail following
-- Silent movement practice
-- Multi-target hunting scenarios
-- Weather condition adaptation
+**Types of Discoveries:**
+- **Legendary Animal Bones**: Valuable trader items from rare wildlife
+- **Native Artifacts**: Historical arrowheads and tools
+- **Hunter Caches**: Supplies left by other hunters
+- **Natural Rarities**: Rare pelts from naturally deceased animals
 
-**Suitable Game**: Deer, boar, medium predators
-**Success Rate**: 60-75%
+**Discovery Mechanics:**
+- **Proximity detection** - companion senses items within range
+- **Behavioral indicators** - excited digging and investigation
+- **Player assistance** - help with final excavation
+- **Shared rewards** - companion participation improves bonding
 
-### **Advanced Level (Levels 7-10)**
-**Focus**: Expert hunting and pack coordination
-**Training Activities**:
-- Large game strategy development
-- Pack hunting coordination
-- Emergency situation management
-- Specialized role training
+## 📈 Hunting Training and Progression
 
-**Suitable Game**: All animals including large predators
-**Success Rate**: 75-90%
+### **🎯 Skill Development (Automatic)**
+**Companion hunting abilities improve through:**
+- **Successful hunts** - each success builds experience
+- **Time spent hunting** - extended sessions develop skills
+- **Variety of game** - different prey types broaden expertise
+- **Pack coordination** - group activities enhance teamwork
 
-## 🌟 Special Hunting Abilities by Personality
+### **🏅 Hunting Milestones**
+**Novice Level (Levels 1-3):**
+- **Basic retrieval** - fetches small game reliably
+- **Simple scent following** - tracks fresh, easy trails
+- **Safety awareness** - maintains distance from large game
+- **Success Rate**: 40-60% for small game
 
-### **Aggressive Companions**
-- **Enhanced Attack**: More effective against defensive game
-- **Territory Control**: Better at area denial tactics
-- **Intimidation**: Can scare game into specific directions
-- **Best For**: Large game hunting, predator control
+**Intermediate Level (Levels 4-6):**
+- **Advanced tracking** - follows older, more complex trails
+- **Silent movement** - excellent stealth capabilities
+- **Multi-target awareness** - can distinguish between different game
+- **Success Rate**: 60-75% for small/medium game
 
-### **Loyal Companions**
-- **Perfect Obedience**: Follows commands precisely
-- **Human Safety**: Prioritizes hunter protection
-- **Consistent Performance**: Reliable in all situations
-- **Best For**: Beginner hunters, family hunting trips
+**Expert Level (Levels 7-10):**
+- **Master tracking** - follows very old trails across terrain
+- **Pack leadership** - coordinates group hunting expeditions
+- **Large game support** - safely assists with dangerous prey
+- **Success Rate**: 75-90% across all game types
 
-### **Playful Companions**
-- **High Energy**: Extended hunting sessions without fatigue
-- **Creative Solutions**: Unexpected hunting approaches
-- **Learning Enthusiasm**: Faster skill development
-- **Best For**: Training new hunting techniques
+### **🌟 Specialized Hunting Abilities**
 
-### **Calm Companions**
-- **Stealth Mastery**: Exceptional silent movement
-- **Patience**: Can wait hours for perfect opportunities
-- **Stress Resistance**: Unaffected by challenging hunts
-- **Best For**: Long-range hunting, precision tracking
+#### **By Personality Type:**
+- **Aggressive**: Enhanced effectiveness against defensive game
+- **Loyal**: Perfect obedience and hunter protection priority
+- **Playful**: High energy for extended hunting sessions
+- **Calm**: Exceptional stealth and patience for long waits
 
-## 🛠️ Hunting Equipment and Supplies
+#### **By Breed Specialization:**
+- **Bloodhounds**: Exceptional scent detection and aging
+- **German Shepherds**: Balanced hunting and protection
+- **Retrievers**: Superior in water-based hunting scenarios
+- **Terriers**: Specialists in small game and burrow hunting
 
-### **Essential Hunting Gear**
-- **Companion Medical Kit**: Bandages, healing items
-- **Game Calls**: Attract specific animal types
-- **Scent Masking**: Reduce human scent detection
-- **Tracking Tools**: Enhanced trail reading
-- **Weather Protection**: Keep companion comfortable
+## 🛠️ Hunting Equipment and Gear
 
-### **Companion-Specific Equipment**
-- **Hunting Harness**: Carry extra ammunition/supplies
-- **Protective Gear**: Shield from thorns and harsh terrain
-- **Communication Tools**: Silent signals between hunter and companion
-- **Recovery Equipment**: Help with wounded game retrieval
+### **Companion Hunting Gear (Automatic)**
+**System automatically manages:**
+- **Scent tracking enhancement** - companion uses natural abilities
+- **Stamina optimization** - AI manages energy efficiently
+- **Environmental adaptation** - behavior adapts to weather/terrain
+- **Safety protocols** - automatic threat assessment and response
 
-### **Seasonal Considerations**
-- **Winter Hunting**: Insulated gear, paw protection
-- **Summer Hunting**: Cooling vests, extra water
-- **Rain Hunting**: Waterproof equipment, visibility aids
-- **Night Hunting**: Reflective gear, enhanced lighting
+### **Player Equipment Recommendations**
+- **Appropriate weapons** for different game sizes
+- **Scent masking items** to reduce detection
+- **Medical supplies** for both player and companion safety
+- **Weather protection** for extended hunting sessions
 
-## 📊 Hunting Statistics and Tracking
+### **Seasonal Considerations (AI Adaptive)**
+- **Winter**: AI adapts to snow conditions and preserved scents
+- **Summer**: Behavior adjusts for heat and rapid scent dispersal
+- **Rain**: Enhanced reliance on visual and sound tracking
+- **Night**: Increased use of specialized night-hunting companions
 
-### **Performance Metrics**
-- **Success Rate**: Percentage of successful hunts
-- **Game Variety**: Different animal types hunted
-- **Efficiency**: Time per successful hunt
-- **Safety Record**: Incidents avoided/managed
-- **Experience Gained**: Skill development progression
+## 📊 Hunting Performance and Statistics
 
-### **Companion Development Tracking**
-- **Scent Detection Improvement**: Range and accuracy
-- **Stealth Development**: Noise reduction over time
-- **Obedience Advancement**: Command response reliability
-- **Stamina Building**: Extended hunting capability
-- **Specialization Growth**: Expertise in specific game types
+### **Automatic Tracking**
+**System monitors:**
+- **Success rates** by game type and hunting method
+- **Companion performance** improvements over time
+- **Pack coordination** efficiency in group hunts
+- **Safety incidents** and risk management effectiveness
+
+### **Performance Optimization**
+- **Companion health** affects hunting performance
+- **Bonding level** influences cooperation and success
+- **Experience distribution** ensures balanced skill development
+- **Environmental learning** improves area-specific success
 
 ## 🚨 Hunting Safety and Ethics
 
-### **Safety Protocols**
-1. **Never hunt alone**: Always have companion as backup
-2. **Know your target**: Confirm game type before shooting
-3. **Weather awareness**: Avoid hunting in dangerous conditions
-4. **Emergency planning**: Know evacuation routes and procedures
-5. **Companion health**: Monitor for fatigue or injury
+### **Automatic Safety Systems**
+- **Threat assessment** - AI continuously evaluates dangers
+- **Emergency protocols** - automatic responses to dangerous situations
+- **Companion protection** - system prevents unnecessary risks
+- **Environmental awareness** - adapts to terrain and weather hazards
 
 ### **Ethical Hunting Practices**
-- **Clean kills**: Aim for quick, humane takedowns
-- **Use everything**: Don't waste any part of harvested game
-- **Respect wildlife**: Follow sustainable hunting practices
-- **Environmental stewardship**: Leave no trace policies
-- **Companion welfare**: Never overwork or endanger companions
+- **Clean kills** - AI positioning helps ensure humane takedowns
+- **Resource utilization** - companion helps maximize game value
+- **Sustainable practices** - system encourages responsible hunting
+- **Wildlife respect** - AI teaches conservation-minded behavior
 
-### **Legal Considerations**
-- **Server rules**: Follow your specific server's hunting regulations
-- **Seasonal restrictions**: Respect any limited hunting periods
-- **Protected areas**: Avoid hunting in restricted zones
-- **Licensing**: Ensure proper hunting permits where required
+### **Server Compliance**
+- **Rule adherence** - system works within server hunting regulations
+- **Seasonal restrictions** - respects limited hunting periods if configured
+- **Protected areas** - AI prevents hunting in restricted zones
+- **Community standards** - follows server-specific hunting guidelines
 
 ---
 
-*Remember: Hunting with companions is about partnership, patience, and respect for both wildlife and your loyal hunting partner. Build trust through training, maintain safety through preparation, and enjoy the timeless bond between hunter and companion.*
+*Hunting with companions transforms from a solo activity into an intelligent partnership. The AI-driven system creates authentic hunting experiences that enhance both realism and enjoyment, while maintaining focus on safety, ethics, and the timeless bond between hunter and companion.*

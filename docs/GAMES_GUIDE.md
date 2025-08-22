@@ -1,335 +1,301 @@
-# 🎮 HDRP-Companion Games & Mini-Games Guide
+# 🎮 HDRP-Companion Games & Activities Guide
 
-Complete guide for all interactive games and activities with your companions in RedM.
+Complete guide for interactive activities and entertainment with your companions using the **context menu system** and **automatic AI behaviors** in RedM.
 
 ## 🎯 Games Overview
 
-The companion system includes 5 core mini-games designed to build bonds, develop skills, and provide entertainment. Each game has unique mechanics, rewards, and progression systems that enhance both companion abilities and player enjoyment.
+The companion system includes interactive activities designed to build bonds, develop skills, and provide entertainment. These activities are accessed through **context menus** and **automatic companion behaviors** rather than manual commands.
 
-## 🏆 Game Categories
+**Key Point**: Activities use **context menus, prompts, and AI automation** - not chat commands.
 
-### **🎪 Entertainment Games**
-**Purpose**: Fun, bonding, and stress relief
-**Benefits**: Increased happiness, stronger human-companion bond
-**Best For**: Daily interaction, new companion socialization
+## 🎮 How Activities Work
 
-### **🎓 Training Games**
-**Purpose**: Skill development and ability enhancement  
-**Benefits**: Experience gain, improved combat/hunting abilities
-**Best For**: Leveling up companions, preparing for challenges
+### **🎪 Context Menu Access**
+**How to Access Activities:**
+1. **Approach your companion** when active
+2. **Action prompt appears** for companion interactions
+3. **Use prompt** to open companion actions menu
+4. **Select activity** from available options
+5. **Companion automatically initiates** chosen activity
 
-### **💰 Reward Games**
-**Purpose**: Earning items, money, and valuable resources
-**Benefits**: Economic rewards, rare item discovery
-**Best For**: Resource gathering, profit generation
+### **🤖 Automatic Activity Detection**
+**AI-Triggered Activities:**
+- **Environmental interactions** (water, food sources, interesting objects)
+- **Spontaneous play behavior** when companion is happy
+- **Training opportunities** based on companion level and context
+- **Social activities** when multiple companions are present
 
-## 🎮 Complete Mini-Games List
+## 🎪 Available Companion Activities
 
-### **1. 🦴 Bone Game (Fetch & Play)**
+### **1. 🦴 Interactive Play (Fetch & Retrieval)**
 
-**Category**: Entertainment + Training
-**Difficulty**: Beginner
-**Duration**: 5-15 minutes
+**How to Access:**
+- **Open companion actions menu** near your companion
+- **Select play/entertainment option** from context menu
+- **Companion finds suitable objects** for play activities
+- **Participate in interactive play session**
 
-**How to Play**:
-1. Use `/pet_games` and select "Bone Game"
-2. Throw various objects (bones, sticks, balls) for your companion
-3. Companion retrieves items and brings them back
-4. Score points based on speed and accuracy
-5. Progress through increasingly difficult challenges
+**Activity Types:**
+- **Natural Fetch**: Companion finds sticks, bones, or objects to retrieve
+- **Distance Challenges**: Progressively throw objects further
+- **Accuracy Games**: Companion retrieves specific items from groups
+- **Obstacle Navigation**: Companion retrieves items around barriers
+- **Speed Challenges**: Timed retrieval activities
 
-**Game Mechanics**:
-- **Distance Challenge**: Throw objects progressively further
-- **Accuracy Test**: Companion must retrieve exact item thrown
-- **Speed Rounds**: Timed retrieval challenges
-- **Obstacle Course**: Navigate around barriers to retrieve items
-- **Multi-Item**: Remember and retrieve multiple objects in sequence
+**AI Behavior:**
+- **Object Selection**: Companion intelligently chooses appropriate play items
+- **Engagement Level**: Activity intensity matches companion energy
+- **Safety Awareness**: Avoids dangerous objects or hazardous areas
+- **Progressive Difficulty**: Challenges increase with companion skill level
 
-**Rewards**:
-- **Experience**: +10-25 XP per successful retrieval
-- **Bonding**: +5% bond strength per game session
-- **Items**: Rare toys, training treats, decorative collars
-- **Skills**: Improved "Fetch" ability for hunting and daily use
+**Benefits:**
+- **Bond Strengthening**: +5-10% bond increase per session
+- **Experience Gain**: +1-25 XP based on activity success
+- **Happiness Boost**: Significant mood improvement
+- **Skill Development**: Improves retrieval and obedience abilities
 
-**Companion Suitability**:
-- **Best**: Dogs (all breeds), Playful personalities
-- **Good**: Young companions, High-energy types
-- **Challenging**: Cats (can be trained), Calm personalities
+### **2. 🏴‍☠️ Treasure Discovery (Companion-Led Exploration)**
 
----
+**How It Activates:**
+- **Companion detects buried items** during exploration
+- **Digging behavior** indicates potential discovery sites
+- **Follow companion's interest** to investigation areas
+- **Assist with excavation** when companion finds items
 
-### **2. 🏴‍☠️ Treasure Hunt (Find Buried)**
+**Discovery Process:**
+1. **Companion shows interest** in specific ground areas
+2. **Investigation prompt appears** near interested companion
+3. **Use prompt** to encourage digging behavior
+4. **Companion excavates** with player assistance
+5. **Share discovered treasures** and experience
 
-**Category**: Training + Rewards
-**Difficulty**: Intermediate
-**Duration**: 15-30 minutes
+**Types of Discoveries:**
+- **Common Finds**: Coins, basic supplies, animal bones, old items
+- **Uncommon Treasures**: Jewelry, rare materials, vintage collectibles
+- **Rare Artifacts**: Legendary items, maps, unique weapons, historical pieces
+- **Ultra-Rare Discoveries**: One-of-a-kind collectibles, special crafting materials
 
-**How to Play**:
-1. Access through `/pet_games` → "Treasure Hunt"
-2. Companion uses scent and digging abilities to locate buried items
-3. Follow companion's behavior cues to identify search areas
-4. Assist with final excavation of discovered treasures
-5. Share rewards based on treasure value and rarity
+**AI Discovery System:**
+- **Environmental Analysis**: Companion assesses areas for discovery potential
+- **Historical Activity Detection**: Identifies areas of past human activity
+- **Natural Instincts**: Uses breed-specific abilities for detection
+- **Experience Learning**: Improves discovery skills over time
 
-**Game Mechanics**:
-- **Scent Detection**: Companion identifies areas with buried items
-- **Behavior Reading**: Watch for excitement, pointing, digging signals
-- **Area Scanning**: Systematic search of designated hunting grounds
-- **Depth Challenge**: Some treasures require extended digging
-- **Time Pressure**: Limited time adds excitement and challenge
+**Rewards:**
+- **Monetary Value**: $5-$500 depending on discovery rarity
+- **Crafting Materials**: Items useful for equipment creation
+- **Experience Points**: +15-75 XP based on discovery significance
+- **Collections**: Special items for achievement completion
 
-**Treasure Types**:
-- **Common**: Coins, basic supplies, animal bones
-- **Uncommon**: Jewelry, rare pelts, vintage items
-- **Rare**: Legendary artifacts, maps, unique weapons
-- **Ultra-Rare**: Historical treasures, one-of-a-kind collectibles
+### **3. 🎯 Training Sessions (Skill Development)**
 
-**Rewards**:
-- **Money**: $5-$500 depending on treasure rarity
-- **Items**: Valuable trade goods, crafting materials
-- **Experience**: +15-50 XP based on treasure difficulty
-- **Collections**: Special items for completionist achievements
+**How to Access:**
+- **Training option** available in companion actions menu
+- **Companion level determines** available training types
+- **Environmental context influences** training opportunities
+- **Automatic progression tracking** monitors improvement
 
-**Companion Suitability**:
-- **Best**: Dogs with hunting background, High-level companions
-- **Good**: Wolves, Experienced trackers
-- **Learning**: Cats (with patience), Young companions
+**Training Categories:**
 
----
+#### **🏃 Physical Training**
+**Activities:**
+- **Agility Courses**: Companion navigates obstacles automatically
+- **Stamina Building**: Extended movement and exercise sessions
+- **Speed Development**: Sprint training and quick movement drills
+- **Strength Training**: Carrying and pulling exercises
 
-### **3. 🎯 Hunt Training (Practice Sessions)**
+#### **🧠 Mental Training**
+**Activities:**
+- **Problem Solving**: Companion figures out puzzles and challenges
+- **Memory Games**: Remembering locations and sequences
+- **Attention Training**: Focus and concentration exercises
+- **Learning Drills**: New command and behavior training
 
-**Category**: Training + Skills
-**Difficulty**: Intermediate to Advanced
-**Duration**: 20-45 minutes
+#### **🎪 Specialty Training**
+**Activities:**
+- **Hunting Preparation**: Practice for wildlife tracking and hunting
+- **Combat Readiness**: Defensive and protective behavior training
+- **Social Skills**: Interaction with other companions and people
+- **Utility Training**: Specialized skills like carrying or guarding
 
-**How to Play**:
-1. Select "Hunt Training" from games menu
-2. Choose training scenario (small game, medium game, large game)
-3. Practice hunting techniques in controlled environment
-4. Companion learns advanced hunting behaviors
-5. Graduate to real hunting expeditions
+**Training Benefits:**
+- **Permanent Skill Improvements**: Enhanced abilities that carry forward
+- **Experience Gains**: +20-100 XP based on training complexity
+- **Specialization Development**: Focus areas based on companion strengths
+- **Unlock Advanced Activities**: Access to higher-level interactions
 
-**Training Scenarios**:
-- **Small Game Practice**: Rabbits, birds, rodents (safe environment)
-- **Medium Game Simulation**: Deer, boar behavior patterns
-- **Large Game Preparation**: Bear, elk encounter training
-- **Predator Defense**: Practice against hostile animals
-- **Pack Hunting**: Multi-companion coordination exercises
+### **4. 🌍 Environmental Exploration (Discovery Games)**
 
-**Skill Development**:
-- **Stealth Approach**: Silent movement techniques
-- **Scent Masking**: Avoid detection by prey
-- **Coordinated Attacks**: Timing and positioning
-- **Safety Protocols**: Emergency response training
-- **Prey Psychology**: Understanding animal behavior
+**How It Works:**
+- **Companion curiosity** drives natural exploration behavior
+- **Follow companion's lead** during exploration sessions
+- **Discovery prompts appear** when interesting items found
+- **Shared exploration experience** builds bonds and skills
 
-**Rewards**:
-- **Hunting Skills**: Permanent ability improvements
-- **Experience**: +20-75 XP based on training complexity
-- **Certification**: Unlock advanced hunting expeditions
-- **Equipment**: Training leads to better hunting gear access
+**Exploration Types:**
 
----
+#### **🔍 Area Investigation**
+- **Companion systematically searches** areas of interest
+- **Player follows and assists** with investigation
+- **Environmental clues lead** to discoveries or activities
+- **Natural learning** about terrain and resources
 
-### **4. 🕳️ Dig Random (Exploration Game)**
+#### **🦋 Wildlife Observation**
+- **Companion tracks and observes** local wildlife
+- **Educational opportunities** about animal behavior
+- **Safe interaction** with non-threatening creatures
+- **Natural history learning** through observation
 
-**Category**: Entertainment + Rewards
-**Difficulty**: Beginner to Intermediate
-**Duration**: 10-25 minutes
+#### **🏛️ Historical Site Discovery**
+- **Companion detects areas** of historical significance
+- **Investigation reveals** stories and artifacts
+- **Cultural learning** about area history
+- **Special discoveries** related to local lore
 
-**How to Play**:
-1. Enter "Dig Random" mode through games menu
-2. Companion randomly selects digging locations
-3. Each dig reveals random items or experiences
-4. Build excitement through surprise discoveries
-5. Some locations lead to mini-adventures
+**Exploration Benefits:**
+- **Knowledge Expansion**: Learn about environment and history
+- **Discovery Skills**: Improved ability to find interesting locations
+- **Environmental Adaptation**: Better performance in various terrains
+- **Cultural Appreciation**: Understanding of area significance
 
-**Dig Discovery Types**:
-- **Resource Nodes**: Coal, metals, gems
-- **Wildlife Encounters**: Small animals, insects, interesting creatures
-- **Historical Artifacts**: Old coins, buttons, tools
-- **Mystery Items**: Strange objects that trigger special events
-- **Cache Discoveries**: Supply stashes left by NPCs
+### **5. 🎭 Animation & Performance (Social Activities)**
 
-**Special Events**:
-- **Underground Tunnels**: Access to hidden cave systems
-- **Animal Dens**: Discover wildlife homes and families
-- **Forgotten Graves**: Historical burial sites with stories
-- **Natural Springs**: Discover clean water sources
-- **Fossil Finds**: Ancient bones and prehistoric artifacts
+**How to Access:**
+- **Performance option** in companion actions menu
+- **Animation selection** from available repertoire
+- **Companion skill level** determines available animations
+- **Social context influences** performance options
 
-**Rewards**:
-- **Surprise Factor**: Never know what you'll find
-- **Collection Items**: Unique pieces for personal collections
-- **Story Elements**: Discover lore and history of the area
-- **Experience**: Variable XP based on discovery significance
+**Performance Categories:**
 
----
+#### **🎪 Basic Tricks**
+- **Simple Commands**: Sit, stay, shake, roll over
+- **Greeting Behaviors**: Wave, bow, salute gestures
+- **Play Actions**: Spin, dance, jump sequences
+- **Expression Displays**: Happy, sad, excited, alert emotions
 
-### **5. 🎭 Pet Animations (Performance Game)**
+#### **🎨 Advanced Performances**
+- **Complex Sequences**: Multi-step animation combinations
+- **Interactive Displays**: Respond to player actions and music
+- **Specialized Skills**: Breed-specific or training-based abilities
+- **Creative Expressions**: Unique personality-based performances
 
-**Category**: Entertainment + Bonding
-**Difficulty**: Beginner to Advanced
-**Duration**: 5-20 minutes
-
-**How to Play**:
-1. Access "Pet Animations" from games menu
-2. Teach companion various tricks and performances
-3. Create custom animation sequences
-4. Perform shows for other players
-5. Develop signature companion personalities
-
-**Animation Categories**:
-- **Basic Tricks**: Sit, shake, roll over, play dead
-- **Advanced Performances**: Dance sequences, acrobatic moves
-- **Interactive Displays**: Respond to music, react to player actions
-- **Emotional Expressions**: Show happiness, sadness, excitement, alertness
-- **Combat Demonstrations**: Non-harmful attack displays, defensive postures
-
-**Performance Elements**:
-- **Timing**: Perfect synchronization with commands
-- **Fluidity**: Smooth transitions between animations
-- **Personality**: Animations match companion's character
-- **Creativity**: Develop unique signature moves
+#### **👥 Social Performances**
+- **Group Activities**: Coordinated performances with multiple companions
 - **Audience Interaction**: Engage with watching players
+- **Competition Elements**: Performance contests and showcases
+- **Teaching Moments**: Demonstrate skills to other companions
 
-**Social Features**:
-- **Pet Shows**: Organize competitions with other players
-- **Animation Trading**: Learn new tricks from other companions
-- **Performance Ratings**: Community voting on best performances
-- **Signature Moves**: Develop trademark animations for your companion
+**Performance Benefits:**
+- **Social Recognition**: Fame and reputation in community
+- **Bond Strengthening**: Strongest relationship building activity
+- **Entertainment Value**: Pure enjoyment and creativity
+- **Skill Unlocks**: Access to new animation options
+- **Community Integration**: Enhanced social interactions
 
-**Rewards**:
-- **Social Recognition**: Fame in the community
-- **Bonding**: Strongest bond-building activity
-- **Entertainment Value**: Pure fun and creativity
-- **Custom Animations**: Unlock unique performance options
+## 🏆 Activity Progression and Rewards
 
-## 🎲 Advanced Game Mechanics
+### **📈 Skill Development System**
+**Activities improve companion abilities through:**
+- **Regular Participation**: Consistent activity engagement builds skills
+- **Variety Exposure**: Different activities develop diverse capabilities
+- **Success Achievement**: Positive outcomes reinforce learning
+- **Challenge Progression**: Graduated difficulty maintains engagement
 
-### **🔗 Game Progression System**
-Each mini-game has its own progression track:
+### **🎯 Achievement Tracking**
+**System monitors:**
+- **Activity Participation**: Frequency and duration of different activities
+- **Success Rates**: Performance improvement over time
+- **Milestone Completion**: Significant achievement markers
+- **Specialization Development**: Areas of particular companion strength
 
-**Beginner Tier**: Basic mechanics, simple challenges
-- Unlocked from companion level 1
-- Basic rewards and experience
-- Tutorial guidance included
+### **🎁 Reward Systems**
 
-**Intermediate Tier**: Complex scenarios, moderate challenges  
-- Unlocked at companion level 4
-- Improved rewards and rare item chances
-- Multiple game modes available
+#### **Immediate Rewards**
+- **Experience Points**: Immediate XP gains from activity completion
+- **Bond Strengthening**: Relationship improvement through shared activities
+- **Happiness Boost**: Mood and satisfaction increases
+- **Item Discoveries**: Physical rewards from certain activities
 
-**Expert Tier**: Advanced challenges, master-level gameplay
-- Unlocked at companion level 7
-- Premium rewards and unique items
-- Competitive elements introduced
+#### **Long-term Benefits**
+- **Skill Enhancement**: Permanent ability improvements
+- **Behavioral Development**: Enhanced AI responses and capabilities
+- **Social Recognition**: Community reputation and standing
+- **Unlock Opportunities**: Access to advanced activities and features
 
-**Legendary Tier**: Ultimate challenges for master companions
-- Unlocked at companion level 10
-- Exclusive rewards and achievements
-- Community recognition features
+## 🎪 Advanced Activity Features
 
-### **🏅 Achievement System**
-Track progress across all mini-games:
+### **🤝 Social Gaming**
+**Multi-Player Activities:**
+- **Companion Showcases**: Demonstrate skills to other players
+- **Group Exploration**: Joint discovery expeditions
+- **Performance Competitions**: Skill contests and challenges
+- **Collaborative Training**: Shared learning experiences
 
-**Game-Specific Achievements**:
-- Play each game 10/50/100 times
-- Achieve perfect scores in games
-- Discover rare items in treasure hunts
-- Master all animation categories
+### **🌟 Seasonal and Special Events**
+**Contextual Activities:**
+- **Holiday Themes**: Special activities during server events
+- **Weather Adaptations**: Season-appropriate activity modifications
+- **Community Challenges**: Server-wide activity competitions
+- **Limited-Time Opportunities**: Exclusive discovery or performance chances
 
-**Cross-Game Achievements**:
-- Play all 5 mini-games in one day
-- Earn specific amount of XP through games
-- Build maximum bond strength through gaming
-- Complete daily gaming challenges
+### **📊 Performance Analytics**
+**Activity Optimization:**
+- **Success Pattern Analysis**: Understanding what activities work best
+- **Companion Preferences**: Individual activity preferences and strengths
+- **Environmental Factors**: How location and context affect activity success
+- **Social Dynamics**: Impact of other players and companions on activities
 
-### **🎁 Reward Multipliers**
-Special bonuses for consistent play:
+## 🛠️ Activity Customization
 
-**Daily Bonuses**: +25% rewards for first game each day
-**Streak Bonuses**: +10% per consecutive day (max +100%)
-**Perfect Play**: +50% rewards for flawless game completion
-**Multi-Game**: +20% when playing multiple games in session
+### **🎨 Personalization Options**
+**Tailoring Activities:**
+- **Companion Personality**: Activities adapt to individual companion traits
+- **Player Preferences**: System learns preferred activity types
+- **Skill Focus**: Emphasize activities that develop desired abilities
+- **Time Investment**: Adjust activity duration and intensity
 
-## 🎪 Multiplayer Gaming Features
+### **🌍 Environmental Integration**
+**Location-Based Activities:**
+- **Urban Activities**: City-appropriate entertainment and training
+- **Wilderness Adventures**: Nature-based exploration and discovery
+- **Social Spaces**: Community-oriented performances and interactions
+- **Private Training**: Isolated skill development opportunities
 
-### **👥 Cooperative Games**
-Play mini-games with other players and their companions:
+## 📚 Activity Tips and Strategies
 
-**Treasure Hunt Teams**:
-- Form groups of 2-4 players
-- Search larger areas with multiple companions
-- Share discoveries and rewards
-- Compete against other teams
+### **🎯 Maximizing Benefits**
+- **Regular Engagement**: Daily activity sessions build strongest bonds
+- **Variety Balance**: Mix different activity types for well-rounded development
+- **Mood Awareness**: Choose activities that match companion's current state
+- **Progressive Challenge**: Gradually increase activity difficulty for growth
 
-**Pack Training Sessions**:
-- Multiple companions train together
-- Learn pack coordination skills
-- Practice group hunting techniques
-- Build inter-companion relationships
+### **🤝 Social Integration**
+- **Community Participation**: Engage with other players in group activities
+- **Teaching Others**: Share activity knowledge with new players
+- **Learning Exchange**: Observe and learn from experienced companion handlers
+- **Event Participation**: Join server-sponsored activity competitions
 
-**Animation Shows**:
-- Organize community pet shows
-- Judge performances together
-- Create group choreography
-- Develop companion "friendships"
+### **⏰ Time Management**
+- **Efficient Sessions**: Focus on high-impact activities when time is limited
+- **Extended Periods**: Use longer sessions for complex training and exploration
+- **Natural Rhythms**: Align activities with companion energy and mood cycles
+- **Spontaneous Opportunities**: Take advantage of unexpected activity chances
 
-### **🏆 Competitive Elements**
-Compete against other players:
+## 🚨 Activity Safety and Guidelines
 
-**Timed Challenges**: Speed competitions in all mini-games
-**Accuracy Contests**: Precision-based scoring systems
-**Discovery Competitions**: Who can find the most rare items
-**Performance Battles**: Animation and trick competitions
+### **🛡️ Safety Protocols**
+- **Environmental Awareness**: Ensure activities occur in safe locations
+- **Companion Limits**: Respect companion stamina and stress levels
+- **Player Safety**: Maintain personal safety during outdoor activities
+- **Community Respect**: Consider impact on other players during activities
 
-## 📊 Gaming Statistics and Tracking
-
-### **Personal Statistics**
-Track your gaming progress:
-- Total games played per type
-- Best scores achieved in each game
-- Rare items discovered
-- Experience gained through gaming
-- Time spent in each mini-game
-
-### **Companion Development**
-Monitor how gaming affects your companion:
-- Skill improvements from specific games
-- Personality development through play
-- Bond strength increases
-- Favorite games and activities
-- Performance improvements over time
-
-### **Community Rankings**
-Compare with other players:
-- Leaderboards for each mini-game
-- Monthly gaming competitions
-- Rare discovery tracking
-- Most creative animations voted by community
-
-## 🎯 Gaming Strategies and Tips
-
-### **Maximizing Rewards**
-- **Daily Consistency**: Play at least one game daily for bonuses
-- **Game Rotation**: Rotate between different games for variety bonuses
-- **Perfect Timing**: Learn optimal timing for each game type
-- **Companion Mood**: Play when companion is happy for better performance
-
-### **Skill Development Focus**
-- **Match Games to Goals**: Use hunting games if you want to improve hunting
-- **Progressive Difficulty**: Don't jump to expert level too quickly
-- **Patience with Learning**: Allow companion time to master each level
-- **Reward Success**: Always reward companion after successful gaming
-
-### **Social Gaming**
-- **Find Gaming Partners**: Regular gaming buddies enhance experience
-- **Teach Others**: Help new players learn gaming mechanics
-- **Community Events**: Participate in server-wide gaming competitions
-- **Share Discoveries**: Help others find rare items and achievements
+### **📜 Server Compliance**
+- **Rule Adherence**: Follow server guidelines for companion activities
+- **Appropriate Content**: Ensure activities align with server themes and standards
+- **Fair Play**: Maintain sporting behavior in competitive activities
+- **Respectful Interaction**: Positive engagement with community members
 
 ---
 
-*Mini-games are more than just entertainment - they're the foundation of a strong bond with your companion. Through play, training, and shared adventures, you'll build a partnership that enhances every aspect of your RedM experience. Remember: the real reward isn't the treasure you find or the skills you develop, but the unbreakable bond you create with your loyal companion.*
+*Companion activities transform the relationship from simple ownership to true partnership. Through shared play, learning, and discovery, these activities create memorable experiences that deepen bonds while developing both companion abilities and player enjoyment. The key is finding the perfect balance of fun, challenge, and growth that suits both you and your unique companion.*
