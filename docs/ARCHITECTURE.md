@@ -1,24 +1,24 @@
 # HDRP-Companion: Real System Architecture
 
-## 🏗️ System Architecture
+## 🏛️ System Architecture
 
-*Technical installation diagram - Information flow architecture with verified component mapping*
+*Technical installation diagram with architectural refinement - Information flow architecture with verified component mapping*
 
 ```mermaid
 flowchart LR
-    %% INPUT SOURCES - Like electrical supply points
-    PLAYER_INPUT["👤 PLAYER<br/>Input Source"]
-    ADMIN_INPUT["⚙️ ADMIN<br/>Control Source"]
+    %% INPUT SOURCES - Primary system interfaces
+    PLAYER_INPUT["▲ PLAYER<br/>═══════════<br/>Input Source<br/>Interactive Interface"]
+    ADMIN_INPUT["◆ ADMIN<br/>═══════════<br/>Control Source<br/>System Management"]
     
     %% MAIN DISTRIBUTION PANEL - Primary Processing Hub
-    subgraph MAIN_HUB["🔌 MAIN PROCESSING HUB"]
+    subgraph MAIN_HUB["▣ MAIN PROCESSING HUB<br/>╔══════════════════════╗"]
         direction TB
-        UI_INTERFACE["📱 User Interface<br/>Input Processing<br/><i>ox_target + ox_lib</i>"]
+        UI_INTERFACE["▼ User Interface<br/>───────────────<br/>Input Processing<br/><i>ox_target + ox_lib</i>"]
         
-        subgraph AI_PROCESSING["🧠 AI Processing Unit"]
-            DECISION_ENGINE["⚡ Decision Engine<br/><i>companion_ai.lua</i><br/>1,003 lines"]
-            CONTEXT_ANALYZER["🌍 Context Analyzer<br/><i>companion_context.lua</i><br/>542 lines"]
-            MEMORY_MANAGER["💾 Memory Manager<br/><i>companion_memory.lua</i><br/>679 lines"]
+        subgraph AI_PROCESSING["◉ AI Processing Core<br/>┌─────────────────────┐"]
+            DECISION_ENGINE["▲ Decision Engine<br/>─────────────────<br/><i>companion_ai.lua</i><br/>⌘ 1,003 lines"]
+            CONTEXT_ANALYZER["◐ Context Analyzer<br/>─────────────────<br/><i>companion_context.lua</i><br/>⌘ 542 lines"]
+            MEMORY_MANAGER["◑ Memory Manager<br/>─────────────────<br/><i>companion_memory.lua</i><br/>⌘ 679 lines"]
         end
     end
     
@@ -108,16 +108,16 @@ flowchart LR
     CONTEXT_ANALYZER -.->|Config Read| PERF_CFG
     LEADER_ELECTION -.->|Config Read| EXP_CFG
     
-    %% STYLING - Technical drawing style
-    classDef inputSource fill:#2c3e50,stroke:#34495e,stroke-width:4px,color:#ecf0f1
-    classDef mainHub fill:#3498db,stroke:#2980b9,stroke-width:3px,color:#ffffff
-    classDef processing fill:#9b59b6,stroke:#8e44ad,stroke-width:3px,color:#ffffff
-    classDef coordination fill:#e67e22,stroke:#d35400,stroke-width:2px,color:#ffffff
-    classDef outlets fill:#27ae60,stroke:#229954,stroke-width:2px,color:#ffffff
-    classDef infrastructure fill:#f39c12,stroke:#e67e22,stroke-width:2px,color:#ffffff
-    classDef utilities fill:#95a5a6,stroke:#7f8c8d,stroke-width:2px,color:#2c3e50
-    classDef storage fill:#e74c3c,stroke:#c0392b,stroke-width:2px,color:#ffffff
-    classDef config fill:#34495e,stroke:#2c3e50,stroke-width:1px,color:#ecf0f1
+    %% ARCHITECTURAL STYLING - Refined aesthetic with technical precision
+    classDef inputSource fill:linear-gradient(135deg, #1a252f 0%, #2c3e50 100%),stroke:#34495e,stroke-width:4px,color:#ecf0f1,stroke-dasharray: 0
+    classDef mainHub fill:linear-gradient(135deg, #2980b9 0%, #3498db 100%),stroke:#1f4e79,stroke-width:4px,color:#ffffff,stroke-dasharray: 0
+    classDef processing fill:linear-gradient(135deg, #6a4c93 0%, #9b59b6 100%),stroke:#5d4e75,stroke-width:3px,color:#ffffff,stroke-dasharray: 0
+    classDef coordination fill:linear-gradient(135deg, #d35400 0%, #e67e22 100%),stroke:#b7472a,stroke-width:3px,color:#ffffff,stroke-dasharray: 0
+    classDef outlets fill:linear-gradient(135deg, #16a085 0%, #1abc9c 100%),stroke:#138d75,stroke-width:3px,color:#ffffff,stroke-dasharray: 0
+    classDef infrastructure fill:linear-gradient(135deg, #e67e22 0%, #f39c12 100%),stroke:#ca6f1e,stroke-width:3px,color:#ffffff,stroke-dasharray: 0
+    classDef utilities fill:linear-gradient(135deg, #85929e 0%, #a6acaf 100%),stroke:#6c7b7f,stroke-width:2px,color:#2c3e50,stroke-dasharray: 0
+    classDef storage fill:linear-gradient(135deg, #c0392b 0%, #e74c3c 100%),stroke:#a93226,stroke-width:3px,color:#ffffff,stroke-dasharray: 0
+    classDef config fill:linear-gradient(135deg, #2c3e50 0%, #34495e 100%),stroke:#1b2631,stroke-width:2px,color:#bdc3c7,stroke-dasharray: 5 5
     
     class PLAYER_INPUT,ADMIN_INPUT inputSource
     class UI_INTERFACE,MAIN_HUB mainHub
@@ -130,13 +130,19 @@ flowchart LR
     class CONFIG_PANEL,GENERAL_CFG,PERF_CFG,EXP_CFG config
 ```
 
-### Architectural Design Principles
+### Architectural Design Philosophy
 
-#### **Geometric Form & Spatial Hierarchy**
-- **Vertical Flow Architecture**: Clean top-down information cascade
-- **Layer Separation**: Clear geometric boundaries between architectural concerns
-- **Balanced Composition**: Symmetric module distribution with intentional asymmetric highlights
-- **Visual Weight Distribution**: Core intelligence layer emphasized as architectural focal point
+#### **Visual Aesthetics & Technical Precision**
+- **Architectural Typography**: Symbolic elements (▲◆◉) create visual hierarchy with technical elegance
+- **Gradient Materiality**: Subtle linear gradients evoke depth and sophistication without compromising readability
+- **Geometric Harmony**: Clean geometric boundaries with refined proportions following classical design principles
+- **Cultural Balance**: Technical precision meets artistic refinement - honoring both engineering rigor and visual elegance
+
+#### **Compositional Structure**
+- **Golden Section Flow**: Information cascade follows natural visual rhythm
+- **Symmetrical Foundation**: Balanced module distribution with intentional focal emphasis
+- **Material Language**: Color gradients and line weights create architectural materiality
+- **Typographic Hierarchy**: Unicode symbols and ASCII art create sophisticated technical annotation
 
 #### **Enterprise Design Characteristics**
 - **Hexagonal Architecture Pattern**: External adapters, core business logic, infrastructure separation
