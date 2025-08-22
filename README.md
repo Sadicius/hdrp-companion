@@ -7,7 +7,7 @@ Advanced companion system for RedM servers with AI-enhanced behavior, customizat
 - **🤖 Advanced AI System**: Context-aware companion behavior with dynamic decision making
 - **🎨 Full Customization**: 63+ props and accessories for companion personalization
 - **🎮 Interactive Mini-Games**: 5 engaging activities to play with your companions
-- **⚡ Performance Optimized**: Sub-50ms response times with memory management
+- **⚡ Performance Optimized**: Real-time monitoring with intelligent resource management
 - **🛠️ RSGCore Integration**: Native compatibility with RSGCore framework
 - **📊 Progressive System**: Leveling, bonding, and experience mechanics
 
