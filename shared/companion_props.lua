@@ -4,7 +4,7 @@ local ComponentsProps = {
 
         {
             hashid = "toys_1",
-            alwaysAttached = false,
+            always_attached = false,
             category = "toys",
             model = 'p_bathbrush01x',
             bone = 'skel_neck2',
@@ -19,7 +19,7 @@ local ComponentsProps = {
         },
         {
             hashid = "toys_2",
-            alwaysAttached = false,
+            always_attached = false,
             category = "toys",
             model = 's_inv_voodoodoll01x',
             bone = 'skel_neck0',
@@ -34,7 +34,7 @@ local ComponentsProps = {
         },
         {
             hashid = "toys_6",
-            alwaysAttached = false,
+            always_attached = false,
             category = "toys",
             model = 'p_voodoodoll01x',
             bone = 'skel_neck0',
@@ -49,7 +49,7 @@ local ComponentsProps = {
         },
         {
             hashid = "toys_3",
-            alwaysAttached = false,
+            always_attached = false,
             category = "toys",
             model = 'p_stethascope01x',
             bone = 'PH_Head',
@@ -64,7 +64,7 @@ local ComponentsProps = {
         },
         {
             hashid = "toys_4",
-            alwaysAttached = false,
+            always_attached = false,
             category = "toys",
             model = 's_squirrelmarston01x',
             bone = 'PH_Head',
@@ -79,7 +79,7 @@ local ComponentsProps = {
         },
         {
             hashid = "toys_5",
-            alwaysAttached = false,
+            always_attached = false,
             category = "toys",
             model = 'p_tuxyoungaligator01x',
             bone = 'PH_Head',
@@ -94,7 +94,7 @@ local ComponentsProps = {
         },
         {
             hashid = "toys_7",
-            alwaysAttached = false,
+            always_attached = false,
             category = "toys",
             model = 's_re_relicguama01x',
             bone = 'skel_neck0',
@@ -109,7 +109,7 @@ local ComponentsProps = {
         },
         {
             hashid = "toys_8",
-            alwaysAttached = false,
+            always_attached = false,
             category = "toys",
             model = 's_re_silver_relicguama01x',
             bone = 'PH_Head',
@@ -124,7 +124,7 @@ local ComponentsProps = {
         },
         {
             hashid = "toys_9",
-            alwaysAttached = false,
+            always_attached = false,
             category = "toys",
             model = 'p_blowgundart01x',
             bone = 'PH_Head',
@@ -139,7 +139,7 @@ local ComponentsProps = {
         },
         {
             hashid = "toys_10",
-            alwaysAttached = false,
+            always_attached = false,
             category = "toys",
             model = 'p_snoeshoe01x',
             bone = 'PH_Head',
@@ -154,7 +154,7 @@ local ComponentsProps = {
         },
         {
             hashid = "toys_11",
-            alwaysAttached = false,
+            always_attached = false,
             category = "toys",
             model = 'p_doll02x',
             bone = 'PH_Head',
@@ -169,7 +169,7 @@ local ComponentsProps = {
         },
         {
             hashid = "toys_12",
-            alwaysAttached = false,
+            always_attached = false,
             category = "toys",
             model = 'p_doll01x',
             bone = 'PH_Head',
@@ -186,7 +186,7 @@ local ComponentsProps = {
     Horns = {
         {
             hashid = "horns_1",
-            alwaysAttached = false,
+            always_attached = false,
             category = "horns",
             model = 's_mountedmooseantlers01x',
             bone = 'PH_HeadProp',
@@ -201,7 +201,7 @@ local ComponentsProps = {
         },
         {
             hashid = "horns_2",
-            alwaysAttached = false,
+            always_attached = false,
             category = "horns",
             model = 'p_antlers01x',
             bone = 'PH_HeadProp',
@@ -216,7 +216,7 @@ local ComponentsProps = {
         },
         {
             hashid = "horns_3",
-            alwaysAttached = false,
+            always_attached = false,
             category = "horns",
             model = 'p_scoutfireelkantlers01x',
             bone = 'PH_HeadProp',
@@ -231,7 +231,7 @@ local ComponentsProps = {
         },
         {
             hashid = "horns_4",
-            alwaysAttached = false,
+            always_attached = false,
             category = "horns",
             model = 'p_antlers04x',
             bone = 'PH_HeadProp',
@@ -246,7 +246,7 @@ local ComponentsProps = {
         },
         {
             hashid = "horns_5",
-            alwaysAttached = false,
+            always_attached = false,
             category = "horns",
             model = 'p_pronghornskull01x',
             bone = 'PH_HeadProp',
@@ -261,7 +261,7 @@ local ComponentsProps = {
         },
         {
             hashid = "horns_6",
-            alwaysAttached = false,
+            always_attached = false,
             category = "horns",
             model = 'p_horn01x',
             bone = 'PH_HeadProp',
@@ -280,7 +280,7 @@ local ComponentsProps = {
 
         {
             hashid = "neck_1",
-            alwaysAttached = false,
+            always_attached = false,
             category = "neck",
             model = 'p_disdreamcatcherwind01x',
             bone = 'PH_Head',
@@ -295,7 +295,7 @@ local ComponentsProps = {
         },
         {
             hashid = "neck_2",
-            alwaysAttached = false,
+            always_attached = false,
             category = "neck",
             model = 'p_disdreamcatcherwind05x',
             bone = 'PH_Head',
@@ -310,7 +310,7 @@ local ComponentsProps = {
         },
         {
             hashid = "neck_3",
-            alwaysAttached = false,
+            always_attached = false,
             category = "neck",
             model = 's_quasifuturisticrock01x',
             bone = 'PH_Head',
@@ -325,7 +325,7 @@ local ComponentsProps = {
         },
         {
             hashid = "neck_4",
-            alwaysAttached = false,
+            always_attached = false,
             category = "neck",
             model = 'p_flask02x',
             bone = 'PH_Head',
@@ -340,7 +340,7 @@ local ComponentsProps = {
         },
         {
             hashid = "neck_5",
-            alwaysAttached = false,
+            always_attached = false,
             category = "neck",
             model = 's_re_relicguama02x',
             bone = 'PH_Head',
@@ -355,7 +355,7 @@ local ComponentsProps = {
         },
         {
             hashid = "neck_6",
-            alwaysAttached = false,
+            always_attached = false,
             category = "neck",
             model = 's_re_goldrelicguama01x',
             bone = 'PH_Head',
@@ -370,7 +370,7 @@ local ComponentsProps = {
         },
         {
             hashid = "neck_7",
-            alwaysAttached = false,
+            always_attached = false,
             category = "neck",
             model = 'p_ancientfertilityfgr01x',
             bone = 'PH_Head',
@@ -385,7 +385,7 @@ local ComponentsProps = {
         },
         {
             hashid = "neck_8",
-            alwaysAttached = false,
+            always_attached = false,
             category = "neck",
             model = 's_urndiscoverable01x',
             bone = 'PH_Head',
@@ -400,7 +400,7 @@ local ComponentsProps = {
         },
         {
             hashid = "neck_9",
-            alwaysAttached = false,
+            always_attached = false,
             category = "neck",
             model = 'p_jug01bx',
             bone = 'PH_Head',
@@ -415,7 +415,7 @@ local ComponentsProps = {
         },
         {
             hashid = "neck_10",
-            alwaysAttached = false,
+            always_attached = false,
             category = "neck",
             model = 'p_cs_noose01xb',
             bone = 'PH_Head',
@@ -430,7 +430,7 @@ local ComponentsProps = {
         },
         {
             hashid = "neck_11",
-            alwaysAttached = false,
+            always_attached = false,
             category = "neck",
             model = 'p_cs_rope05x_coiled',
             bone = 'PH_Head',
@@ -445,7 +445,7 @@ local ComponentsProps = {
         },
         {
             hashid = "neck_12",
-            alwaysAttached = false,
+            always_attached = false,
             category = "neck",
             model = 's_ropecanoeend02x',
             bone = 'PH_Head',
@@ -463,7 +463,7 @@ local ComponentsProps = {
 
         {
             hashid = "medal_1",
-            alwaysAttached = false,
+            always_attached = false,
             category = "medal",
             model = 'p_eaglependant01x',
             bone = 'PH_Head',
@@ -479,7 +479,7 @@ local ComponentsProps = {
 
         {
             hashid = "medal_2",
-            alwaysAttached = false,
+            always_attached = false,
             category = "medal",
             model = 'p_deputybadge01x',
             bone = 'PH_Head',
@@ -494,7 +494,7 @@ local ComponentsProps = {
         },
         {
             hashid = "medal_3",
-            alwaysAttached = false,
+            always_attached = false,
             category = "medal",
             model = 's_pantherclawtrinket01x',
             bone = 'PH_Head',
@@ -509,7 +509,7 @@ local ComponentsProps = {
         },
         {
             hashid = "medal_4",
-            alwaysAttached = false,
+            always_attached = false,
             category = "medal",
             model = 's_coachlock02x',
             bone = 'PH_Head',
@@ -524,7 +524,7 @@ local ComponentsProps = {
         },
         {
             hashid = "medal_5",
-            alwaysAttached = false,
+            always_attached = false,
             category = "medal",
             model = 's_wagonprison_lock',
             bone = 'PH_Head',
@@ -539,7 +539,7 @@ local ComponentsProps = {
         },
         {
             hashid = "medal_6",
-            alwaysAttached = false,
+            always_attached = false,
             category = "medal",
             model = 's_wagonprison_lock',
             bone = 'PH_Head',
@@ -554,7 +554,7 @@ local ComponentsProps = {
         },
         {
             hashid = "medal_7",
-            alwaysAttached = false,
+            always_attached = false,
             category = "medal",
             model = 'p_ancientmayanhead01x',
             bone = 'PH_Head',
@@ -569,7 +569,7 @@ local ComponentsProps = {
         },
         {
             hashid = "medal_8",
-            alwaysAttached = false,
+            always_attached = false,
             category = "medal",
             model = 'p_cs_warmedal01x',
             bone = 'PH_Head',
@@ -586,7 +586,7 @@ local ComponentsProps = {
     Masks = {
         {
             hashid = "mask_1",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'mp005_p_mp_predhunt_skull06x',
             bone = 'PH_HeadProp',
@@ -601,7 +601,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_2",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'mp005_p_mp_predhunt_skull01x',
             bone = 'PH_HeadProp',
@@ -616,7 +616,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_3",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'mp005_p_mp_predhunt_skull02x',
             bone = 'PH_HeadProp',
@@ -631,7 +631,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_4",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'mp005_p_mp_predhunt_skull03x',
             bone = 'PH_HeadProp',
@@ -646,7 +646,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_5",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'mp005_p_mp_predhunt_skull04x',
             bone = 'PH_HeadProp',
@@ -661,7 +661,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_6",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'mp005_p_mp_predhunt_skull05x',
             bone = 'PH_HeadProp',
@@ -676,7 +676,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_8",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'mp005_p_mp_predhunt_skull07x',
             bone = 'PH_HeadProp',
@@ -691,7 +691,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_9",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'mp005_p_mp_predhunt_skull08x',
             bone = 'PH_HeadProp',
@@ -706,7 +706,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_10",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'mp005_p_mp_predhunt_skull09x',
             bone = 'PH_HeadProp',
@@ -721,7 +721,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_11",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'p_mask01x',
             bone = 'PH_HeadProp',
@@ -736,7 +736,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_12",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'p_mask02x',
             bone = 'PH_HeadProp',
@@ -751,7 +751,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_13",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'p_mask03x',
             bone = 'PH_HeadProp',
@@ -766,7 +766,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_14",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'p_mask04x',
             bone = 'PH_HeadProp',
@@ -781,7 +781,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_15",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'p_mask05x',
             bone = 'PH_HeadProp',
@@ -796,7 +796,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_16",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'p_maskolmec01x',
             bone = 'PH_HeadProp',
@@ -811,7 +811,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_17",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 's_ramskull01x',
             bone = 'PH_HeadProp',
@@ -826,7 +826,7 @@ local ComponentsProps = {
         },
         {
             hashid = "mask_18",
-            alwaysAttached = false,
+            always_attached = false,
             category = "mask",
             model = 'p_skullmoose01x',
             bone = 'PH_HeadProp',
@@ -845,7 +845,7 @@ local ComponentsProps = {
 
         {
             hashid = "cigar_1",
-            alwaysAttached = false,
+            always_attached = false,
             category = "cigar",
             model =  'p_cigar01x',
             bone = 'PH_Head',
@@ -861,7 +861,7 @@ local ComponentsProps = {
 
         {
             hashid = "cigar_2",
-            alwaysAttached = false,
+            always_attached = false,
             category = "cigar",
             model =  'p_cigar02x',
             bone = 'PH_Head',
@@ -877,7 +877,7 @@ local ComponentsProps = {
 
         {
             hashid = "cigar_3",
-            alwaysAttached = false,
+            always_attached = false,
             category = "cigar",
             model =  'p_cigarette_cs01x',
             bone = 'PH_Head',
@@ -893,7 +893,7 @@ local ComponentsProps = {
 
         {
             hashid = "cigar_4",
-            alwaysAttached = false,
+            always_attached = false,
             category = "cigar",
             model =  'p_cigaretteholder01x',
             bone = 'PH_Head',
@@ -909,7 +909,7 @@ local ComponentsProps = {
 
         {
             hashid = "cigar_5",
-            alwaysAttached = false,
+            always_attached = false,
             category = "cigar",
             model =  'p_pipe01x',
             bone = 'PH_Head',
@@ -925,7 +925,7 @@ local ComponentsProps = {
 
         {
             hashid = "cigar_6",
-            alwaysAttached = false,
+            always_attached = false,
             category = "cigar",
             model =  'p_pipe02x',
             bone = 'PH_Head',
@@ -941,7 +941,7 @@ local ComponentsProps = {
 
         {
             hashid = "cigar_7",
-            alwaysAttached = false,
+            always_attached = false,
             category = "cigar",
             model =  'p_pipe03x',
             bone = 'PH_Head',
@@ -957,7 +957,7 @@ local ComponentsProps = {
 
         {
             hashid = "cigar_8",
-            alwaysAttached = false,
+            always_attached = false,
             category = "cigar", -- category
             model =  'p_opiumpipe01x', -- model
             bone = 'PH_Head', -- bone

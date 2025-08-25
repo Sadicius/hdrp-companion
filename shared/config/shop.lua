@@ -3,7 +3,7 @@
 -- Items available in companion shops
 -- ================================
 
-Config = Config or {}
+-- Config already initialized in shared/config.lua - DO NOT reinitialize
 
 -- ================================
 -- SHOP ITEMS

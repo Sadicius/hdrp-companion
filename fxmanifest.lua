@@ -8,6 +8,7 @@ version '4.7.0'
 shared_scripts {
     '@ox_lib/init.lua',
     'shared/config.lua',
+    'shared/stable_settings.lua',  -- CRITICAL: Load after config.lua for proper initialization
     'shared/companion_names.lua'
 }
 

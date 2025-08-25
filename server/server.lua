@@ -1,5 +1,5 @@
 local RSGCore = exports['rsg-core']:GetCoreObject()
-local CompanionSettings = lib.load('shared.stable_settings')
+-- CompanionSettings now available as Config.StableSettings (loaded via shared_scripts)
 lib.locale()
 
 -----------------

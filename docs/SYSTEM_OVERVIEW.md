@@ -129,7 +129,7 @@ Companions automatically remember:
 ## 🔧 Technical Features
 
 ### **Performance Optimized:**
-- **Sub-50ms Response Times**: Quick context analysis
+- **Performance Monitoring**: Context analysis <25ms target with warning alerts
 - **Efficient Memory Usage**: Lightweight caching system
 - **Smart Updates**: 500ms quick updates, 2000ms full analysis
 - **Performance Monitoring**: Built-in performance tracking

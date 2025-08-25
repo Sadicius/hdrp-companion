@@ -26,6 +26,16 @@ lib.onCache('coords', function(coords)
 end)
 
 CreateThread(function()
+    -- Validation: Ensure Config.StableSettings is loaded and valid
+    if not Config.StableSettings or type(Config.StableSettings) ~= "table" then
+        print('[HDRP-COMPANION ERROR] Config.StableSettings not loaded or invalid')
+        return
+    end
+    
+    if Config.Debug then
+        print('[HDRP-COMPANION] Processing ' .. #Config.StableSettings .. ' stable settings')
+    end
+    
     for k,v in pairs(Config.StableSettings) do
         if not Config.EnableTarget then
             exports['rsg-core']:createPrompt(v.stableid, v.coords, RSGCore.Shared.Keybinds[Config.KeyBind], locale('cl_promp_menu'), {

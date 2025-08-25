@@ -4,8 +4,29 @@
 -- ================================
 
 local RSGCore = exports['rsg-core']:GetCoreObject()
-local ComponentsProps = lib.load('client.components.companion_props')
-local Components = lib.load('client.components.companion_comp')
+
+-- Load shared components using correct path resolution with error handling
+local ComponentsProps = nil
+local Components = nil
+
+-- Safe loading with error handling
+pcall(function()
+    ComponentsProps = lib.load('@hdrp-companion/shared/companion_props')
+    Components = lib.load('@hdrp-companion/shared/companion_comp')
+end)
+
+-- Validation checks
+if not ComponentsProps then
+    print('[HDRP-COMPANION ERROR] Failed to load companion_props module')
+end
+
+if not Components then
+    print('[HDRP-COMPANION ERROR] Failed to load companion_comp module')
+end
+
+-- Initialize with fallbacks if needed
+ComponentsProps = ComponentsProps or {}
+Components = Components or {}
 
 local CustomizationSystem = {}
 

@@ -3,7 +3,7 @@
 -- Settings for companion performance tracking and optimization
 -- ================================
 
-Config = Config or {}
+-- Config already initialized in shared/config.lua - DO NOT reinitialize
 
 -- ================================
 -- PERFORMANCE SETTINGS

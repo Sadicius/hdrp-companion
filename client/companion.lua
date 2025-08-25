@@ -4,7 +4,7 @@
 -- ================================
 
 local spawnedCompanions = {}
-local CompanionSettings = lib.load('shared.stable_settings')
+-- CompanionSettings now available as Config.StableSettings (loaded via shared_scripts)
 
 lib.locale()
 
@@ -30,16 +30,22 @@ function SpawnCompanions(companionmodel, companioncoords, heading)
 end
 
 CreateThread(function()
-    for key, value in pairs(CompanionSettings) do
-        local coords = value.companioncoords
+    -- Use Config.StableSettings instead of CompanionSettings
+    if not Config.StableSettings then
+        print('[HDRP-COMPANION ERROR] Config.StableSettings not loaded')
+        return
+    end
+    
+    for key, value in pairs(Config.StableSettings) do
+        local coords = value.companion_coords
         local newpoint = lib.points.new({
             coords = coords,
             distance = Config.DistanceSpawn,
-            model = joaat(value.companionmodel),
+            model = joaat(value.companion_model),
             ped = nil,
-            price = value.companionprice,
+            price = value.companion_price,
             heading = coords.w,
-            companionname = value.companionname
+            companion_name = value.companion_name
         })
 
         newpoint.onEnter = function(self)

@@ -21,7 +21,7 @@ Welcome to the official documentation for the advanced companion/pet system for 
 - **🤖 Advanced AI System**: Context-aware companion behavior with dynamic decision making
 - **🎨 Full Customization**: 63+ props and accessories for companion personalization
 - **🎮 Interactive Mini-Games**: 5 engaging activities and training exercises
-- **⚡ Performance Optimized**: Sub-50ms response times with intelligent memory management
+- **⚡ Performance Monitored**: Context analysis <25ms target, decision processing with 50ms performance warnings
 - **🛠️ RSGCore Integration**: Native compatibility with RSGCore framework
 - **📊 Progressive System**: Leveling, bonding, and experience mechanics
 

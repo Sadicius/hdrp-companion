@@ -3,7 +3,7 @@
 -- Pet attributes, AI behavior, and personality settings
 -- ================================
 
-Config = Config or {}
+-- Config already initialized in shared/config.lua - DO NOT reinitialize
 
 -- ================================
 -- PET ATTRIBUTES

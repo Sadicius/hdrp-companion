@@ -3,7 +3,7 @@
 -- Item definitions and feeding mechanics
 -- ================================
 
-Config = Config or {}
+-- Config already initialized in shared/config.lua - DO NOT reinitialize
 
 -- ================================
 -- ITEM DEFINITIONS

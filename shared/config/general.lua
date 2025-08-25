@@ -3,7 +3,7 @@
 -- Basic configuration for hdrp-companion
 -- ================================
 
-Config = Config or {}
+-- Config already initialized in shared/config.lua - DO NOT reinitialize
 
 -- ================================
 -- CORE SETTINGS
@@ -54,4 +54,16 @@ Config.Prompt = {
     -- Basic needs
     CompanionDrink = 0xD9D0E1C0,     -- [ENTER] key - Drink water
     CompanionEat = 0x07CE1E61        -- [SPACE] key - Eat food
+}
+
+-- ================================
+-- GRID SYSTEM CONFIGURATION
+-- ================================
+
+-- Grid System Configuration for ox_lib operations
+Config.GridSettings = {
+    radius = 50.0,          -- Search radius for grid operations
+    grid_size = 10.0,       -- Grid cell size
+    update_frequency = 500, -- Grid update frequency (ms)
+    max_entities = 100      -- Maximum entities to track in grid
 }

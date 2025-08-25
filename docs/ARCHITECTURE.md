@@ -151,7 +151,7 @@ flowchart LR
 - **Domain-Driven Design**: Clear bounded contexts for AI, coordination, and persistence
 
 #### **Performance Engineering**
-- **Sub-50ms Decision Cycles**: Hardware-monitored response times with threshold alerting
+- **Performance Monitoring**: Context analysis target <25ms, decision processing with 50ms warning thresholds
 - **Intelligent Memory Management**: 3-tier hierarchical memory with automatic optimization
 - **Multi-Agent Coordination**: Leadership election algorithms with formation-pattern optimization
 - **Database Optimization**: Connection pooling, prepared statements, indexed specialized tables
@@ -189,7 +189,7 @@ Proximity Detection → Leadership Election → Formation Selection → Coordina
 
 | Component | File | Responsibility | Performance Target |
 |-----------|------|----------------|-------------------|
-| Core AI | `companion_ai.lua` | AI behavior processing | Decision < 25ms |
+| Core AI | `companion_ai.lua` | AI behavior processing | Decision warnings >50ms |
 | Context System | `companion_context.lua` | Environmental analysis | Update 500ms cycle |
 | Memory System | `companion_memory.lua` | Local memory management | Query < 10ms |
 | Performance Monitor | `companion_performance.lua` | System metrics tracking | Real-time monitoring |
@@ -216,7 +216,7 @@ Proximity Detection → Leadership Election → Formation Selection → Coordina
 
 ## 🚀 Verified Performance Characteristics
 
-- **Context Analysis**: ~15-25ms (optimized for sub-50ms target)
+- **Context Analysis**: ~15-25ms target (performance warnings at 25ms threshold)
 - **Decision Engine**: ~25-50ms with 100ms throttling
 - **Database Queries**: Prepared statements + connection pooling
 - **Memory Management**: Auto-cleanup + garbage collection
@@ -279,7 +279,7 @@ end
 - **Time/Weather Analysis**: Dynamic time of day and weather response
 - **Social Context**: Player/NPC proximity detection
 - **Location Analysis**: Interior/exterior detection, building proximity
-- **Performance Optimized**: Sub-25ms execution time with alerts
+- **Performance Monitored**: 25ms warning threshold for context analysis
 
 ### Memory Management (companion_memory.lua:679 lines)
 ```lua

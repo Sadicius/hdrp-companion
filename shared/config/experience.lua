@@ -3,7 +3,7 @@
 -- XP requirements and progression settings
 -- ================================
 
-Config = Config or {}
+-- Config already initialized in shared/config.lua - DO NOT reinitialize
 
 -- ================================
 -- TRICK XP REQUIREMENTS

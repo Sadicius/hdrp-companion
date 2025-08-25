@@ -3,7 +3,7 @@
 -- Sistema de extensiones independientes para HDRP-Companion
 -- ================================
 
-Config = Config or {}
+-- Config already initialized in shared/config.lua - DO NOT reinitialize
 
 -- ================================
 -- EXTENSIONS CORE CONFIGURATION

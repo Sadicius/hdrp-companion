@@ -81,8 +81,21 @@ local CompanionAI = {}
 CompanionAI.taskQueue = {}
 CompanionAI.currentTask = nil
 CompanionAI.lastPlayerPosition = vector3(0, 0, 0)
-CompanionAI.followDistance = Config.PetAttributes.FollowDistance or 3.0
-CompanionAI.followSpeed = Config.PetAttributes.FollowSpeed or 1.0
+
+-- Robust configuration loading with fallbacks
+if Config.PetAttributes then
+    CompanionAI.followDistance = Config.PetAttributes.FollowDistance or 3.0
+    CompanionAI.followSpeed = Config.PetAttributes.FollowSpeed or 1.0
+    
+    if Config.Debug then
+        print('[COMPANION-AI] PetAttributes loaded - Follow Distance:', CompanionAI.followDistance)
+    end
+else
+    print('[HDRP-COMPANION ERROR] Config.PetAttributes not loaded, using defaults')
+    CompanionAI.followDistance = 3.0
+    CompanionAI.followSpeed = 1.0
+end
+
 CompanionAI.isProcessing = false
 
 -- Personalidades disponibles en RedM
