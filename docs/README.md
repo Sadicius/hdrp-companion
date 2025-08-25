@@ -32,21 +32,15 @@ Welcome to the official documentation for the advanced companion/pet system for 
 - **Centralized State Management**: Unified companion state system
 - **Advanced AI System**: Context-aware behavior using RedM natives
 - **Optimized Performance**: Efficient threading and memory management
-
-### ✅ **Complete Framework Integration**
 - **RSGCore Framework**: Full native integration
 - **ox_lib**: Modern UI and advanced utilities
 - **oxmysql**: Optimized database operations
 - **ox_target**: Interactive targeting system
-
-### ✅ **Advanced Functionality**
 - **63 Customization Props**: Toys, collars, accessories, utility items
 - **Progressive Leveling**: XP-based progression with 10 levels
 - **Intelligent AI**: 8 different personality types
 - **Combat Integration**: Attack, tracking, and hunting capabilities
 - **Complete Persistence**: Automatic saving of all companion data
-
-### ✅ **Performance Optimizations**
 - **Intelligent Caching**: Reduced redundant native calls
 - **Optimized Threading**: Appropriate intervals (100ms-1000ms)
 - **Automatic Cleanup**: Efficient memory management
@@ -70,29 +64,11 @@ Welcome to the official documentation for the advanced companion/pet system for 
 - **Bonding System**: Relationship building over time
 - **Persistent Inventory**: Saddlebags for item storage
 
-## 🛠️ Technology Stack
-
-### **Client-Side**
-- **CfxLua**: Primary language optimized for RedM
-- **ox_lib**: Modern library for UI and utilities
-- **RedM Natives**: Native APIs specific to Red Dead Redemption
-
-### **Server-Side**
-- **RSGCore Framework**: Base server framework
-- **oxmysql**: Optimized database driver
-- **MySQL/MariaDB**: Data persistence system
-
-### **Architecture**
-- **Modular Pattern**: Clear separation of concerns
-- **Event-Driven**: Event-based communication
-- **State Management**: Centralized state control
-- **Cache System**: Performance optimization layer
-
 ## 📈 Project Metrics
 
 - **4,000+ lines** of optimized code
 - **63 customization props** available
-- **8 AI personalities** implemented
+- **8 personalities** implemented
 - **10 progression levels** with XP system
 - **6 core modules** fully optimized
 - **100% compatible** with RSGCore and ox_lib
@@ -107,11 +83,6 @@ Welcome to the official documentation for the advanced companion/pet system for 
   - `ox_lib`
   - `ox_target`
   - `oxmysql`
-
-### Performance Requirements
-- **Minimum**: 4GB RAM, dual-core CPU
-- **Recommended**: 8GB RAM, quad-core CPU
-- **Optimal**: 16GB RAM, 6+ core CPU for large servers
 
 ## 📊 Performance Characteristics
 
@@ -144,12 +115,5 @@ Welcome to the official documentation for the advanced companion/pet system for 
 - **Performance Problems**: Adjust AI performance mode
 - **Spawning Issues**: Check dependency load order
 - **Command Problems**: Verify RSGCore permissions
-
----
-
-**Version:** 4.7.0 Production Ready  
-**Framework:** RSGCore for RedM  
-**Compatibility:** ox_lib, oxmysql, ox_target  
-**Status:** Production Deployment Ready ✅
 
 *For detailed setup instructions, see the [Admin Guide](ADMIN_GUIDE.md). For gameplay information, see the [User Guide](USER_GUIDE.md).*
