@@ -116,7 +116,7 @@ local function PerformCompanionAction(entity, anim, obj, forward)
     objectInteract = false
 end
 
-function HandleWaterInteraction(entity)
+local function HandleWaterInteraction(entity)
     if not IsPedStill(entity) or IsPedSwimming(entity) then return end
 
     DisableControlAction(0, 0x7914A3DD, true)
@@ -128,7 +128,7 @@ function HandleWaterInteraction(entity)
     end
 end
 
-function HandleObjectInteractio(entity)
+local function HandleObjectInteraction(entity)
     local forward = GetOffsetFromEntityInWorldCoords(entity, 0.0, 0.8, -0.5)
     local obj, type = GetNearestInteractableObject(forward)
 
@@ -162,7 +162,7 @@ CreateThread(function()
         
         -- Solo procesar cuando el jugador está logueado
         if LocalPlayer.state.isLoggedIn and playerPed > 0 then
-            local tcompanion = isCompanionPedActive()
+            local tcompanion = CheckActiveCompanion()
             
             if tcompanion and not objectInteract and IsPedLeadingHorse(playerPed) then
                 sleep = 100 -- Más frecuente cuando hay compañero activo
@@ -170,7 +170,7 @@ CreateThread(function()
                 if IsEntityInWater(tcompanion) then
                     HandleWaterInteraction(tcompanion)
                 elseif Config.Ambient.ObjectAction then
-                    HandleObjectInteractio(tcompanion)
+                    HandleObjectInteraction(tcompanion)
                 end
             end
         end

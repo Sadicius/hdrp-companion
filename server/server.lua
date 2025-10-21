@@ -642,7 +642,7 @@ local function parseJSONCoords(value)
     return nil
 end
 
-function DetectCoordinates(entry)
+local function DetectCoordinates(entry)
 
     for _, field in ipairs(Config.TablesTrack.coordsColumns) do
         local v = entry[field]
@@ -1405,89 +1405,6 @@ local function updatePetStats(hunger, thirst, happiness, dirt)
     return hunger, thirst, happiness, dirt, updated
 end
 
---[[ lib.cron.new(Config.AnimalCronJob, function()
-    local success, result = pcall(MySQL.query.await, 'SELECT * FROM player_companions')
-    if not success or not result then
-        print('[hdrp-companion] CRON: Could not fetch companions from database.')
-        return
-    end
-
-    for i = 1, #result do
-        local id = result[i].id
-        local ownercid = result[i].citizenid
-        local companionData = json.decode(result[i].companiondata)
-
-        if not companionData or type(companionData.hunger) ~= "number" then
-            print('[hdrp-companion] CRON WARN: Skipping companion with invalid data. ID: ' .. tostring(id))
-            goto continue_loop -- Salta a la siguiente iteración
-        end
-
-        -- >> CORRECCIÓN PRINCIPAL: El nombre se obtiene del JSON decodificado
-        local companionname = companionData.name
-        local id_comp = companionData.id
-        local companiontype = companionData.companion
-        local bornTime = companionData.born
-
-        if not companionname then companionname = "Sin Nombre" end
-        if not id_comp then id_comp = "ID Desconocido" end
-
-        local days = math.floor((os.time() - (bornTime or os.time())) / (24 * 60 * 60))
-        if days > Config.CompanionDieAge or (companiontype == 'a_c_dogrufus_01' and days >= Config.StarterCompanionDieAge) then
-            local deleteSuccess, _ = pcall(MySQL.update.await, 'DELETE FROM player_companions WHERE id = ?', { id })
-
-            if deleteSuccess then
-                TriggerEvent('rsg-companions:server:updateanimals')
-
-                local discordMessage = string.format(
-                    locale('sv_log_c') .. ":** %s \n**" ..
-                    locale('sv_log_p') .. ':** %s \n**' ..
-                    locale('sv_log_companion_belong') .. ":** %s \n**" ..
-                    locale('sv_log_companion_dead') .. "**",
-                    ownercid, id_comp, companionname
-                )
-                TriggerEvent('rsg-log:server:CreateLog', Config.WebhookName, Config.WebhookTitle, Config.WebhookColour, discordMessage, false)
-
-                pcall(MySQL.insert.await, 'INSERT INTO telegrams (citizenid, recipient, sender, sendername, subject, sentDate, message) VALUES (?, ?, ?, ?, ?, ?, ?)', {
-                    ownercid, locale('sv_telegram_owner'), '22222222', locale('sv_telegram_stables'),
-                    companionname .. ' ' .. locale('sv_telegram_away'), os.date('%x'),
-                    locale('sv_telegram_inform') .. ' ' .. companionname .. ' ' .. locale('sv_telegram_has_passed'),
-                })
-            end
-
-            goto continue_loop -- >> CORRECCIÓN LÓGICA: Continúa con el siguiente animal
-        end
-
-        local updateNeeded = false
-        if companionData.age < days then
-            companionData.age = companionData.age + 1
-            updateNeeded = true
-        end
-
-        companionData.scale = math.min(1.0, 0.5 + 0.1 * companionData.age)
-
-        if result[i].active then
-            local hunger, thirst, happiness, dirt, petStatsChanged = updatePetStats(companionData.hunger, companionData.thirst, companionData.happiness, companionData.dirt)
-            if petStatsChanged then
-                companionData.hunger, companionData.thirst, companionData.happiness, companionData.dirt = hunger, thirst, happiness, dirt
-                updateNeeded = true
-            end
-        end
-
-        if updateNeeded then
-            local updatedData = json.encode(companionData)
-            local updateSuccess, _ = pcall(MySQL.update.await, 'UPDATE player_companions SET companiondata = ? WHERE id = ?', { updatedData, id })
-            if updateSuccess then
-                TriggerEvent('rsg-companions:server:updateanimals')
-            end
-        end
-
-        ::continue_loop::
-    end
-
-    if Config.EnableServerNotify then
-        print(locale('sv_print'))
-    end
-end) ]]
 lib.cron.new(Config.AnimalCronJob, function()
     local success, result = pcall(MySQL.query.await, 'SELECT * FROM player_companions')
     if not success or not result then
