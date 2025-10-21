@@ -1,6 +1,6 @@
 # 🐕 HDRP-Companion Pet System for RedM
 
-**Version:** 4.7.0
+**Version:** 4.7.2
 **Framework:** RSGCore for RedM
 **Status:** Production Ready ✅
 
@@ -674,7 +674,7 @@ Contributions are welcome! Please ensure any modifications:
 
 ---
 
-**Version 4.7.0** | **Production Ready** ✅ | **Enterprise Architecture**
+**Version 4.7.2** | **Production Ready** ✅ | **Enterprise Architecture**
 
 *Created for the RedM community - Enhance your roleplay experience with intelligent companion AI*
 
