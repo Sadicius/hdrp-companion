@@ -15,7 +15,7 @@ Advanced companion system for RedM servers featuring sophisticated AI-enhanced b
 - **Sub-50ms Response Times**: Hardware-monitored performance with real-time optimization
 - **Dynamic Context Analysis**: Environmental monitoring (combat, exploration, social contexts)
 
-### 🤝 **Multi-Companion Coordination** (v4.7.0)
+### 🤝 **Multi-Companion Coordination** (v4.7.2)
 - **Leadership Election**: Bonding-based automatic leader selection
 - **5 Formation Patterns**: V-formation, line, circle, scatter, defensive
 - **Pack Hunting**: Coordinated hunting with automatic role assignment
