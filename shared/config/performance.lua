@@ -81,10 +81,10 @@ Config.Optimization = {
 -- DEBUG AND DEVELOPMENT
 -- ================================
 
-Config.Debug = {
+Config.DebugSettings = {
     -- Debug levels
     Level = 0,            -- 0=None, 1=Basic, 2=Verbose, 3=Full
-    
+
     -- Debug categories
     Categories = {
         Performance = true,  -- Performance monitoring debug
@@ -93,7 +93,7 @@ Config.Debug = {
         Events = false,     -- Event system debug
         Memory = false      -- Memory usage debug
     },
-    
+
     -- Development tools
     DevTools = {
         Enabled = false,    -- Enable development tools
@@ -108,7 +108,7 @@ Config.Debug = {
 -- ================================
 
 -- Auto-enable performance monitoring in development
-if Config.Debug and Config.Debug.Level > 0 then
+if Config.DebugSettings and Config.DebugSettings.Level > 0 then
     Config.Performance.Enabled = true
     Config.Performance.Reports.Console = true
 end
@@ -376,6 +376,6 @@ CreateThread(function()
     end
 end)
 
-if Config.Debug and Config.Debug.Level > 0 then
+if Config.DebugSettings and Config.DebugSettings.Level > 0 then
     print('[COMPANION-PERF] Performance configuration loaded')
 end
