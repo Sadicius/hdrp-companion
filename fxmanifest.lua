@@ -3,7 +3,7 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 game 'rdr3'
 
 description 'hdrp-companion'
-version '4.7.0'
+version '4.7.2'
 
 shared_scripts {
     '@ox_lib/init.lua',
