@@ -8,7 +8,7 @@ local CompanionSettings = lib.load('shared.stable_settings')
 
 lib.locale()
 
-function SpawnCompanions(companionmodel, companioncoords, heading)
+local function SpawnCompanions(companionmodel, companioncoords, heading)
 
     local spawnedCompanion = CreatePed(companionmodel, companioncoords.x, companioncoords.y, companioncoords.z - 1.0, heading, false, false, 0, 0)
     SetEntityAlpha(spawnedCompanion, 0, false)
