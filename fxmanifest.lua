@@ -8,6 +8,13 @@ version '4.7.0'
 shared_scripts {
     '@ox_lib/init.lua',
     'shared/config.lua',
+    'shared/config/general.lua',
+    'shared/config/shop.lua',
+    'shared/config/experience.lua',
+    'shared/config/attributes.lua',
+    'shared/config/items.lua',
+    'shared/config/performance.lua',
+    'shared/config/extensions.lua',
     'shared/companion_names.lua'
 }
 

@@ -67,7 +67,7 @@ AddEventHandler('rsg-companions:server:food', function()
 	local src = source
     local Player = RSGCore.Functions.GetPlayer(src)
 	Player.Functions.AddItem('raw_meat', 1)
-    TriggerClientEvent('rNotify:ShowAdvancedRightNotification', src, "1 x "..RSGCore.Shared.Items['raw_meat'].label, "generic_textures" , "tick" , "COLOR_PURE_WHITE", 4000)
+    TriggerClientEvent('ox_lib:notify', src, {title = "1 x "..RSGCore.Shared.Items['raw_meat'].label, type = 'success', duration = 4000})
 end)
 
 ----------------------------------
@@ -97,23 +97,23 @@ end)
 -- Buy & active
 ----------------------------------
 -- Get All Companions
-RSGCore.Functions.CreateCallback('rsg-companions:server:GetAllCompanions', function(source, cb)
+lib.callback.register('rsg-companions:server:GetAllCompanions', function(source)
     local src = source
     local Player = RSGCore.Functions.GetPlayer(src)
     local success, companions = pcall(MySQL.query.await, 'SELECT * FROM player_companions WHERE citizenid = @citizenid', { ['@citizenid'] = Player.PlayerData.citizenid })
     if success and companions and companions[1] then
-        cb(companions)
+        return companions
     else
-        cb(nil)
+        return nil
     end
 end)
 
 -- get cash
-RSGCore.Functions.CreateCallback('rsg-companions:server:getmoney', function(source, cb)
+lib.callback.register('rsg-companions:server:getmoney', function(source)
     local src = source
     local Player = RSGCore.Functions.GetPlayer(src)
     local cash = Player.PlayerData.money['cash']
-    cb(cash)
+    return cash
 end)
 
 -- generate companionid
@@ -311,13 +311,13 @@ lib.callback.register('rsg-companions:server:GetCompanion', function(source, sta
     return companions
 end)
 
-RSGCore.Functions.CreateCallback('rsg-companions:server:GetActiveCompanion', function(source, cb)
+lib.callback.register('rsg-companions:server:GetActiveCompanion', function(source)
     local src = source
     local Player = RSGCore.Functions.GetPlayer(src)
-    if not Player then cb(nil) return end
+    if not Player then return nil end
     local success, result = pcall(MySQL.query.await, 'SELECT * FROM player_companions WHERE citizenid=@citizenid AND active=@active', { ['@citizenid'] = Player.PlayerData.citizenid, ['@active'] = 1 })
-    if not success or not result or #result == 0 then cb(nil) return end
-    cb(result[1])
+    if not success or not result or #result == 0 then return nil end
+    return result[1]
 end)
 
 RegisterNetEvent('rsg-companions:server:TradeCompanion', function(playerId, companionId, source)
@@ -454,29 +454,29 @@ RegisterNetEvent('rsg-companions:server:updateCoordination', function(coordinati
     end
 end)
 
-RSGCore.Functions.CreateCallback('rsg-companions:server:getCoordination', function(source, cb)
+lib.callback.register('rsg-companions:server:getCoordination', function(source)
     local src = source
     local Player = RSGCore.Functions.GetPlayer(src)
-    if not Player then cb(nil) return end
-    
+    if not Player then return nil end
+
     local citizenid = Player.PlayerData.citizenid
-    
+
     local result = MySQL.query.await('SELECT * FROM companion_coordination WHERE citizenid = ?', { citizenid })
     if result and result[1] then
         local data = result[1]
         -- Decode JSON fields
         local success1, leadershipData = pcall(json.decode, data.leadership_data or '{}')
         local success2, coordinationSettings = pcall(json.decode, data.coordination_settings or '{}')
-        
-        cb({
+
+        return {
             companion_count = data.companion_count,
             group_behavior = data.group_behavior,
             leadership_data = success1 and leadershipData or {},
             coordination_settings = success2 and coordinationSettings or {},
             last_updated = data.last_updated
-        })
+        }
     else
-        cb(nil)
+        return nil
     end
 end)
 
@@ -525,18 +525,18 @@ RegisterNetEvent('rsg-companions:server:companionSpawned', function(companionDat
 end)
 
 -- Performance monitoring callback
-RSGCore.Functions.CreateCallback('rsg-companions:server:getAIPerformance', function(source, cb)
+lib.callback.register('rsg-companions:server:getAIPerformance', function(source)
     local src = source
     local Player = RSGCore.Functions.GetPlayer(src)
-    if not Player then cb(nil) return end
-    
+    if not Player then return nil end
+
     local citizenid = Player.PlayerData.citizenid
-    
+
     -- Get companion count and memory usage statistics
     local companionCount = MySQL.scalar.await('SELECT COUNT(*) FROM player_companions WHERE citizenid = ? AND active = 1', { citizenid }) or 0
     local memoryCount = MySQL.scalar.await('SELECT COUNT(*) FROM companion_memory WHERE citizenid = ?', { citizenid }) or 0
-    
-    cb({
+
+    return {
         active_companions = companionCount,
         memory_entries = memoryCount,
         ai_version = '4.7.0',
@@ -546,7 +546,7 @@ RSGCore.Functions.CreateCallback('rsg-companions:server:getAIPerformance', funct
             multi_companion_coordination = true,
             decision_engine = true
         }
-    })
+    }
 end)
 
 ----------------------------------
@@ -793,7 +793,7 @@ AddEventHandler('rsg-companions:server:getOnlinePlayers', function()
         end)
 end)
 
-RegisterServerEvent('rsg-companions:sever:trackPlayerByCitizenID')
+RegisterServerEvent('rsg-companions:server:trackPlayerByCitizenID')
 AddEventHandler('rsg-companions:server:trackPlayerByCitizenID', function(playerCoords, citizenid)
     local src = source
     local Player = RSGCore.Functions.GetPlayer(src)
@@ -911,7 +911,7 @@ RegisterServerEvent('rsg-companions:server:addBone', function()
     local Player = RSGCore.Functions.GetPlayer(src)
     if not Player then return end
     Player.Functions.AddItem(Config.AnimalBone, 1)
-    TriggerClientEvent('rNotify:ShowAdvancedRightNotification', src, "1 x "..RSGCore.Shared.Items[Config.AnimalBone].label, "generic_textures" , "tick" , "COLOR_PURE_WHITE", 4000)
+    TriggerClientEvent('ox_lib:notify', src, {title = "1 x "..RSGCore.Shared.Items[Config.AnimalBone].label, type = 'success', duration = 4000})
 end)
 
 local function getRandomReward()
@@ -938,7 +938,7 @@ RegisterServerEvent('rsg-companions:server:giveRandomItem', function()
     if reward and #reward.items > 0 then
         for _, item in ipairs(reward.items) do
             Player.Functions.AddItem(item, 1)
-            TriggerClientEvent('rNotify:ShowAdvancedRightNotification', src, "1 x "..RSGCore.Shared.Items[item].label, "generic_textures" , "tick" , "COLOR_PURE_WHITE", 4000)
+            TriggerClientEvent('ox_lib:notify', src, {title = "1 x "..RSGCore.Shared.Items[item].label, type = 'success', duration = 4000})
         end
     end
     local rewardStr = "Ninguna"
@@ -979,7 +979,7 @@ RegisterServerEvent('rsg-companions:server:giveTreasureItem', function()
     if rewards and type(rewards.items) == "table" and #rewards.items > 0 then
         local item = rewards.items[math.random(#rewards.items)]
         Player.Functions.AddItem(item, 1)
-        TriggerClientEvent('rNotify:ShowAdvancedRightNotification', src, "1 x "..RSGCore.Shared.Items[item].label, "generic_textures" , "tick" , "COLOR_PURE_WHITE", 4000)
+        TriggerClientEvent('ox_lib:notify', src, {title = "1 x "..RSGCore.Shared.Items[item].label, type = 'success', duration = 4000})
     end
     local rewardStr = "Ninguna"
     if rewards then
@@ -1662,17 +1662,17 @@ RegisterServerEvent('rsg-companions:server:SetPlayerBucket', function(random, pe
 end)
 
 -- get active companion components callback
-RSGCore.Functions.CreateCallback('rsg-companions:server:CheckComponents', function(source, cb)
+lib.callback.register('rsg-companions:server:CheckComponents', function(source)
     local src = source
     local Player = RSGCore.Functions.GetPlayer(src)
-    if not Player then return end
+    if not Player then return nil end
     local Playercid = Player.PlayerData.citizenid
     local success, result = pcall(MySQL.query.await, 'SELECT * FROM player_companions WHERE citizenid=@citizenid AND active=@active', { ['@citizenid'] = Playercid, ['@active'] = 1})
-    if not success then cb(nil) return end
+    if not success then return nil end
     if result and result[1] then
-        cb(result[1])
+        return result[1]
     else
-        cb(nil)
+        return nil
     end
 end)
 
